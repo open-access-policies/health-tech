@@ -34,15 +34,15 @@ All **[Company Name]** information shall be classified according to its sensitiv
 
 **3.2 Information Classification Responsibilities**
 
-Information classification shall be assigned by designated information owners and applied consistently throughout the information lifecycle.
+Information classification shall be assigned by designated information owners and applied consistently throughout the information lifecycle. The Security Officer shall maintain an Information Asset Inventory that documents all major information assets, their designated Information Owner, and their classification level.
 
-- Information owners shall be designated for all business systems and data sets. Owners are responsible for initial classification, periodic review, and access authorization decisions.
+- Information owners are responsible for the initial classification of data for which they are responsible, approving access requests, and ensuring data is handled according to this policy.
 
-- Classification shall be assigned at the time of creation or acquisition and documented in a manner that is accessible to authorized users.
+- Classification shall be assigned at the time of creation or acquisition and documented in the Information Asset Inventory.
 
 - When information of different classification levels is combined, the resulting information shall be classified at the highest level of any component.
 
-- Classification levels shall be reviewed annually or when significant changes occur to the information content or business context.
+- Information owners shall review the classification of their information assets at least annually. This review shall be documented to provide an audit trail.
 
 **3.3 Handling Requirements by Classification Level**
 

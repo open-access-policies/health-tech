@@ -49,9 +49,9 @@ Only approved mobile device types and operating systems shall be permitted to ac
 - Laptops running macOS **[Version, e.g., 12.0]** or later with latest security updates
 
 **Prohibited Devices:**
-- Devices with modified firmware (jailbroken/rooted devices)
+- The Mobile Device Management (MDM) system shall be configured to automatically block access from devices with modified firmware (jailbroken/rooted devices).
 - Devices running unsupported or end-of-life operating systems
-- Devices with known security vulnerabilities
+- Devices with known critical vulnerabilities that are unpatched
 - Personal gaming devices or IoT devices
 
 **3.2 Mobile Device Management (MDM)**
@@ -96,9 +96,9 @@ Personal devices may be used for business purposes under the BYOD program with a
 
 **3.3.1 BYOD Eligibility and Approval**
 
-- BYOD participation requires formal application and approval process
-- Device compatibility assessment and security evaluation required
-- Signed BYOD agreement acknowledging security requirements and company rights
+- BYOD participation requires a formal application and approval process.
+- Device compatibility assessment and security evaluation required.
+- A signed BYOD agreement is mandatory. This agreement must explicitly state the user's consent to the company's right to enforce all security policies on the device, including the ability to remotely wipe company data and applications.
 - Background check requirements for access to Restricted information
 - Annual device revalidation and security assessment
 
@@ -185,7 +185,7 @@ Procedures shall be established for responding to mobile device security inciden
 
 **3.6.1 Lost or Stolen Device Procedures**
 
-- Immediate reporting requirements within **[Timeframe, e.g., 2 hours]** of discovery
+- All lost or stolen devices must be reported to the IT Security Team immediately, and in no case later than 1 hour after discovery.
 - Remote location and tracking attempts
 - Remote lock and wipe procedures
 - Access credential revocation and reset

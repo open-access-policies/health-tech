@@ -1,4 +1,4 @@
-# Infrastructure Security Policy (ENG-POL-002)
+# Infrastructure Security Policy (ENG-POL-003)
 
 ### 1. Objective
 
@@ -35,10 +35,10 @@ A comprehensive security framework shall be implemented across all cloud infrast
 **3.1.2 Infrastructure Hardening Standards**
 
 **System Hardening Requirements:**
-- Security baselines for all operating systems and platforms (CIS Benchmarks, NIST guidelines)
+- Security baselines for all operating systems and platforms (CIS Benchmarks, NIST guidelines) shall be documented and implemented.
 - Removal of unnecessary services, protocols, and software components
 - Security configuration management and drift detection
-- Regular vulnerability scanning and patch management
+- Vulnerability scanning shall be conducted at least quarterly for all production systems, and patch management shall be performed in accordance with defined SLAs.
 - Endpoint detection and response (EDR) deployment on all applicable systems
 
 **Network Hardening:**
@@ -163,7 +163,7 @@ Infrastructure deployments shall use code-based approaches with appropriate secu
 **3.5.1 Secure IaC Practices**
 
 **IaC Security Requirements:**
-- Version control for all infrastructure code with code review requirements
+- All infrastructure code shall be stored in a version control system. All changes must be reviewed and formally approved via the version control system (e.g., pull request approval) before being merged.
 - Security scanning of infrastructure templates and configurations
 - Automated compliance checking against security policies and standards
 - Immutable infrastructure principles to prevent configuration drift
@@ -239,7 +239,7 @@ Comprehensive backup and disaster recovery capabilities shall ensure business co
 - Geographic distribution of backups for disaster recovery
 - Encryption of all backup data at rest and in transit
 - Access controls and monitoring for backup systems and data
-- Regular backup integrity testing and restoration validation
+- Backup integrity and restoration validation shall be performed at least quarterly for critical systems.
 
 **Backup Retention and Management:**
 - Retention policies aligned with business and regulatory requirements
@@ -254,7 +254,7 @@ Comprehensive backup and disaster recovery capabilities shall ensure business co
 - Geographically separated disaster recovery infrastructure
 - Automated failover capabilities for critical systems and services
 - Recovery time objectives (RTO) and recovery point objectives (RPO) definition and validation
-- Regular disaster recovery testing and validation exercises
+- Disaster recovery testing and validation exercises shall be conducted at least annually.
 - Documentation and maintenance of disaster recovery procedures
 
 **Business Continuity Integration:**

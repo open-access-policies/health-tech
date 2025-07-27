@@ -18,28 +18,31 @@ This policy applies to all **[Company Name]** workforce members, contractors, th
 
 **3.1.1 Incident Response Lifecycle**
 
-The incident response process shall follow a systematic lifecycle approach:
+The incident response process shall follow a systematic lifecycle approach based on the NIST Cybersecurity Framework (Prepare, Detect & Analyze, Contain/Eradicate/Recover, Post-Incident Activity).
 
 **1. Preparation:**
-- Incident response plan development and maintenance
-- Incident response team establishment and training
-- Tools and technology deployment for incident detection and response
-- Communication procedures and contact information maintenance
-- Regular testing and improvement of incident response capabilities
+- Development and at least annual review of the Incident Response Plan (IRP).
+- Establishment and maintenance of a designated Incident Response Team (IRT) with clearly defined roles and responsibilities.
+- Annual training and simulation exercises (e.g., tabletop exercises) for the IRT to ensure readiness, with outcomes documented for improvement tracking.
+- Deployment and maintenance of tools and technologies required for incident detection, analysis, and response.
+- Maintenance of secure, out-of-band communication channels for the IRT.
+- At least annual testing of incident response capabilities, with results documented and used to drive improvements.
 
 **2. Detection and Analysis:**
-- Continuous monitoring for security events and potential incidents
-- Initial triage and classification of reported events
-- Incident verification and impact assessment
-- Evidence collection and preservation
-- Incident categorization and prioritization
+- Continuous monitoring of information systems to detect security events.
+- Initial triage of detected events to determine if a potential incident has occurred.
+- Formal declaration of an incident and activation of the Incident Response Team (IRT).
+- Initial impact and severity assessment to classify the incident according to the criteria in section 3.1.2.
+- Establishment of a secure repository for evidence collection and chain of custody documentation.
+- Prioritization of response activities based on the incident classification.
 
 **3. Containment, Eradication, and Recovery:**
-- Immediate containment actions to prevent incident spread
-- System isolation and quarantine procedures
-- Root cause analysis and threat elimination
-- System restoration and validation
-- Monitoring for recurrence and additional compromise
+- Execution of containment strategies to prevent the incident from spreading and to minimize further damage.
+- Identification of the root cause and all affected systems.
+- Eradication of the threat (e.g., removing malware, disabling breached accounts, patching vulnerabilities).
+- Systematic recovery of affected systems and data from trusted sources.
+- Validation that systems are clean and secure before returning them to production.
+- Enhanced monitoring of recovered systems to ensure the threat has been fully removed.
 
 **4. Post-Incident Activity:**
 - Incident documentation and reporting

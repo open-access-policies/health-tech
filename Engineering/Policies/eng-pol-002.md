@@ -24,9 +24,9 @@ All non-emergency changes must follow this standard process:
     
 - **Security Review:** All pull request templates must include a mandatory security checklist. If the developer indicates the change touches sensitive data, authentication, authorization, encryption, or ePHI, a security review is automatically required and must be completed by the Security Team before merging.
     
-- **Testing:** All changes must pass a full suite of automated tests. Additionally, the Quality Assurance (QA) team must conduct manual testing and provide formal sign-off, confirming the change meets requirements and does not introduce regressions.
+- **Testing:** All changes must pass a full suite of automated tests. Evidence of successful test runs (e.g., a link to the CI/CD build results) must be included in the pull request. Additionally, the Quality Assurance (QA) team must conduct manual testing where applicable and provide formal sign-off within the pull request, confirming the change meets requirements and does not introduce regressions.
     
-- **Deployment Approval:** Final approval to merge the change into the production release branch must be granted by authorized personnel (e.g., Engineering Lead or Manager) within the GitHub pull request.
+- **Deployment Approval:** Final approval to merge the change into the production release branch must be granted by authorized personnel (e.g., Engineering Lead or Manager) within the GitHub pull request. This approval signifies that the approver has verified that all required steps, including peer review, security review, and QA sign-off, have been successfully completed and documented.
     
 
 **3.2 Emergency Changes**
@@ -78,7 +78,7 @@ This policy is designed to comply with and support the following industry standa
 | **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(1)(ii)(C) - Authorization and/or supervision                      |
 | **3.1, 3.2**       | HIPAA Security Rule           | 45 CFR § 164.312(c)(1) - Integrity                                                    |
 | **3.4**            | HIPAA Security Rule           | 45 CFR § 164.312(b) - Audit Controls                                                  |
-| **All**            | SOC 2 Trust Services Criteria | CC3.2 - The entity designs, develops, and implements controls over change management. |
+| **All**            | SOC 2 Trust Services Criteria | CC8.1 - The entity designs, develops, and implements controls over change management. |
 
 ### 5. Definitions
 

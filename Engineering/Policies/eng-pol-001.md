@@ -126,7 +126,7 @@ All code shall undergo thorough review processes to identify and remediate secur
 **3.3.1 Manual Code Review Requirements**
 
 **Peer Review Process:**
-- All code changes shall be reviewed by at least one qualified peer before integration
+- All code changes shall be reviewed and formally approved by at least one qualified peer before being merged into the main branch. This approval must be documented within the version control system (e.g., via a pull request approval).
 - Security-focused code reviews shall be conducted by team members trained in secure coding
 - Code reviews shall use standardized checklists covering common security vulnerabilities
 - Review comments and resolutions shall be documented and tracked
@@ -150,11 +150,13 @@ All code shall undergo thorough review processes to identify and remediate secur
 - Tool configuration shall be maintained to reflect current security standards and threat landscape
 
 **Vulnerability Management:**
-- All identified vulnerabilities shall be tracked and prioritized based on risk
-- Critical vulnerabilities shall be remediated within **[Timeframe, e.g., 24 hours]**
-- High vulnerabilities shall be remediated within **[Timeframe, e.g., 7 days]**
-- Medium vulnerabilities shall be remediated within **[Timeframe, e.g., 30 days]**
-- Vulnerability remediation shall be verified through re-testing
+- All identified vulnerabilities shall be tracked and prioritized based on risk.
+- Remediation of vulnerabilities must adhere to the following timelines:
+  - Critical vulnerabilities: within **[Timeframe, e.g., 7 days]**
+  - High vulnerabilities: within **[Timeframe, e.g., 30 days]**
+  - Medium vulnerabilities: within **[Timeframe, e.g., 90 days]**
+- Any vulnerability that cannot be remediated within the defined timeframe requires a formal risk acceptance document to be signed by the Information Owner and the Security Officer.
+- Vulnerability remediation shall be verified through re-testing.
 
 **3.4 Dynamic Testing and Security Assessment**
 
@@ -186,11 +188,11 @@ Comprehensive dynamic testing shall validate the security of applications in run
 - Social engineering testing shall assess human factors in application security
 
 **External Penetration Testing:**
-- Critical applications shall undergo annual third-party penetration testing
-- Testing shall be performed by certified security professionals (CISSP, CEH, OSCP)
-- Testing methodology shall follow industry standards (OWASP, NIST, PTES)
-- All identified vulnerabilities shall be validated and prioritized for remediation
-- Executive summary and technical reports shall be provided to stakeholders
+- Critical applications shall undergo annual third-party penetration testing.
+- Testing shall be performed by certified security professionals (CISSP, CEH, OSCP).
+- Testing methodology shall follow industry standards (OWASP, NIST, PTES).
+- A formal remediation plan shall be created for all identified vulnerabilities, with owners and timelines assigned for each finding. This plan shall be tracked to completion by the Security Team.
+- Executive summary and technical reports shall be provided to stakeholders.
 
 **3.5 Third-Party Component Management**
 

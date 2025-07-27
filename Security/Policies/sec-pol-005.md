@@ -32,7 +32,7 @@ Vendors shall be classified into risk categories based on the following factors:
 
 **3.1.2 Pre-Engagement Risk Assessment**
 
-Prior to engaging any vendor, a formal risk assessment shall be conducted appropriate to the vendor's risk classification.
+Prior to engaging any vendor, the designated Business Owner, in coordination with the Security Officer, shall conduct and document a formal risk assessment appropriate to the vendor's risk classification. The results of this assessment must be formally approved before contracts are executed.
 
 **High-Risk Vendor Requirements:**
 - Comprehensive security questionnaire (e.g., SIG Lite, CAIQ, or equivalent)
@@ -56,7 +56,7 @@ Prior to engaging any vendor, a formal risk assessment shall be conducted approp
 
 **3.2 Business Associate Agreements and Contractual Requirements**
 
-All vendor contracts shall include appropriate security, privacy, and compliance provisions based on the vendor's risk level and data access requirements.
+All vendor contracts shall include appropriate security, privacy, and compliance provisions based on the vendor's risk level and data access requirements, as approved by the Legal and Security teams.
 
 **3.2.1 Business Associate Agreements (BAAs)**
 
@@ -65,12 +65,12 @@ A signed BAA shall be executed before any vendor is granted access to ePHI.
 BAAs shall include:
 - Permitted uses and disclosures of ePHI
 - Prohibition of unauthorized use or disclosure
-- Safeguarding requirements equivalent to HIPAA Security Rule
-- Incident notification requirements within **[Timeframe, e.g., 24 hours]**
+- Safeguarding requirements equivalent to the HIPAA Security Rule
+- Requirement to report any Security Incident, including any Breach of Unsecured PHI, to **[Company Name]** without unreasonable delay and in no case later than 24 hours after discovery.
 - Access, amendment, and accounting of disclosures rights
-- Return or destruction of ePHI upon contract termination
+- Requirement to return or destroy all ePHI upon contract termination, and to provide a certificate of destruction.
 - Audit rights and compliance monitoring provisions
-- Subcontractor requirements and notifications
+- Subcontractor requirements and flow-down of all BAA obligations
 
 **3.2.2 Security Contract Provisions**
 
@@ -78,13 +78,13 @@ All vendor contracts shall include security provisions appropriate to the risk l
 
 **Mandatory Security Clauses:**
 - Data protection and confidentiality requirements
-- Incident notification and response procedures
-- Right to audit and security assessments
+- Incident notification and response procedures, including a maximum notification timeframe.
+- Right to audit and conduct security assessments
 - Personnel security and background check requirements
 - Data location restrictions and cross-border transfer limitations
 - Insurance and liability provisions
 - Compliance with applicable laws and regulations
-- Secure data return or destruction upon contract termination
+- Requirement for secure data return or destruction upon contract termination, with verification.
 
 **Additional High-Risk Vendor Clauses:**
 - Specific security control requirements (encryption, access controls, logging)

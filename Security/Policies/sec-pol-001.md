@@ -18,7 +18,7 @@ This policy applies to all **[Company Name]** workforce members, including emplo
 
 - A designated Security Officer shall be appointed with ultimate responsibility for the information security program. The Security Officer shall report directly to executive leadership and have the authority to implement security controls across the organization.
 
-- An Information Security Committee shall be established, comprising representatives from key business functions including executive leadership, IT, legal, compliance, human resources, and operations. The committee shall meet quarterly to review security performance, approve policy changes, and make strategic security decisions.
+- An Information Security Committee shall be established, comprising representatives from key business functions including executive leadership, IT, legal, compliance, human resources, and operations. The committee shall meet at least quarterly to review security performance, approve policy changes, and make strategic security decisions. Meeting minutes shall be documented and retained to provide an audit trail of all decisions.
 
 - Information security objectives and requirements shall be integrated into all business processes, system development lifecycles, and vendor management activities.
 
@@ -56,7 +56,7 @@ Access to information systems and data shall be controlled through formal proces
 
 - Multi-factor authentication shall be required for all systems containing sensitive information, including ePHI.
 
-- Access rights shall be reviewed regularly and adjusted based on business need and role changes.
+- Access rights shall be reviewed at least quarterly for systems containing Confidential or Restricted data and at least annually for all other systems. These reviews shall be documented.
 
 - Privileged access shall be subject to additional controls, including time-limited sessions, enhanced monitoring, and separate administrative accounts.
 
@@ -90,11 +90,11 @@ Critical business functions and information systems shall be protected through c
 
 - Business impact assessments shall be conducted to identify critical functions and acceptable recovery timeframes.
 
-- Backup and recovery procedures shall be implemented and tested regularly to ensure data and system availability.
+- Backup and recovery procedures shall be implemented and tested at least annually to ensure data and system availability. Test results shall be documented.
 
 - Alternative processing arrangements shall be established for critical systems to maintain operations during disruptions.
 
-- Recovery testing shall be performed annually and after significant infrastructure changes.
+- Full recovery testing shall be performed annually and after significant infrastructure changes, with results documented and reviewed by the Information Security Committee.
 
 **3.8 Vendor and Third-Party Management**
 

@@ -14,46 +14,25 @@ This policy applies to all **[Company Name]** workforce members, contractors, an
 
 **3.1 Data Retention Framework**
 
-All information assets shall be subject to defined retention periods based on their type, sensitivity, regulatory requirements, and business value.
+All information assets shall be subject to defined retention periods based on their type, sensitivity, regulatory requirements, and business value. These periods shall be formally documented in the official **[Company Name]** Data Retention Schedule.
 
-**3.1.1 Retention Classification Categories**
+**3.1.1 Data Retention Schedule**
 
-Information shall be classified into retention categories with specific retention periods:
+The Records Manager, in coordination with the Retention Committee, shall develop and maintain a formal Data Retention Schedule. This schedule is the official source of truth for all data retention periods and must be reviewed and approved annually by the Retention Committee. The schedule shall, at a minimum, categorize data types and assign a specific, non-ambiguous retention period for each. Examples of categories include:
 
-**Permanent Retention:**
-- Corporate governance documents (articles of incorporation, bylaws)
-- Intellectual property records (patents, trademarks, copyrights)
-- Significant legal agreements and contracts
-- Audit reports and compliance certifications
-- Historical financial records as required by law
-
-**Long-Term Retention (7+ years):**
-- Tax records and supporting documentation
-- Employee personnel files and benefits records
-- Significant business contracts and agreements
-- Insurance policies and claims documentation
-- Environmental and safety records
-
-**Medium-Term Retention (3-7 years):**
-- Financial records and accounting documentation
-- Vendor and supplier records
-- Customer contracts and service agreements
-- Business correspondence and communications
-- IT system documentation and architecture records
-
-**Short-Term Retention (1-3 years):**
-- General business correspondence
-- Routine operational records
-- Training materials and documentation
-- Temporary project files
-- Draft documents and working papers
+- **Corporate Governance:** Records related to the legal and operational structure of the company.
+- **Financial and Tax:** Records required for financial reporting and tax compliance.
+- **Personnel Records:** Information related to employees and human resources.
+- **Contracts and Agreements:** Legal agreements with customers, vendors, and partners.
+- **Electronic Protected Health Information (ePHI):** Health data subject to HIPAA and state laws.
+- **Operational Data:** General business records, correspondence, and system data.
 
 **3.1.2 Electronic Protected Health Information (ePHI) Retention**
 
-ePHI shall be retained in accordance with HIPAA requirements and applicable state laws:
+ePHI shall be retained in accordance with HIPAA requirements and applicable state laws, as specified in the Data Retention Schedule:
 
-- **Minimum Retention Period:** **[Duration, e.g., 6 years]** from date of creation or last update
-- **Extended Retention:** ePHI for minors retained until age **[Age, e.g., 18 plus 6 years]**
+- **Minimum Retention Period:** All policies, procedures, and other documentation required by the HIPAA Security Rule must be retained for a minimum of six (6) years from the date of their creation or the date when they were last in effect, whichever is later. State-specific laws may require longer retention periods.
+- **Extended Retention:** ePHI for minors shall be retained in accordance with applicable state laws, as documented in the Data Retention Schedule.
 - **Research Records:** ePHI used in research retained per research protocol requirements
 - **Legal Hold:** ePHI subject to litigation hold retained until legal matter resolution
 - **State Requirements:** Compliance with state-specific retention requirements where more stringent
@@ -219,16 +198,16 @@ Formal governance processes shall ensure consistent application of retention and
 
 **3.7.1 Retention Committee**
 
-- Cross-functional committee including Legal, Compliance, IT, and Records Management
-- Quarterly review of retention schedules and disposal activities
-- Annual policy review and updates
+- A cross-functional committee including Legal, Compliance, IT, and Records Management shall be maintained.
+- The committee shall meet at least quarterly to review retention and disposal activities.
+- The committee is responsible for the annual review and formal approval of the Data Retention Schedule and this policy.
 - Resolution of retention conflicts and exceptions
 - Approval of retention schedule modifications
 
 **3.7.2 Records Management Program**
 
-- Designated Records Manager responsible for program oversight
-- Retention schedule maintenance and communication
+- A designated Records Manager shall be responsible for program oversight.
+- The Records Manager is responsible for the maintenance, accuracy, and communication of the official Data Retention Schedule.
 - Training programs for workforce members
 - Compliance monitoring and reporting
 - Technology solutions for automated retention management
@@ -278,6 +257,27 @@ This policy is designed to comply with and support the following industry standa
 
 **eDiscovery:** Process of identifying, preserving, and producing electronically stored information for legal proceedings.
 
+**Legal Hold:** Suspension of normal records disposal to preserve information that may be relevant to litigation.
+
+**Media Sanitization:** Process of removing information from storage media such that recovery is not feasible.
+
+**Retention Schedule:** Documented plan specifying how long different types of records should be kept.
+
+**Secure Deletion:** Method of data destruction that makes recovery of deleted data infeasible.
+
+### 6. Responsibilities
+
+|**Role**|**Responsibility**|
+|---|---|
+|**Records Manager**|Develop and maintain retention schedules, oversee disposal activities, coordinate legal holds, and ensure compliance with retention policies.|
+|**Legal Team**|Establish legal retention requirements, issue legal hold notices, support eDiscovery activities, and ensure compliance with legal obligations.|
+|**Privacy Officer**|Ensure ePHI retention complies with HIPAA requirements, oversee privacy-related disposals, and coordinate with legal team on privacy matters.|
+|**IT Security Team**|Implement secure disposal technologies, verify disposal completion, manage disposal vendors, and ensure security of disposal processes.|
+|**System Administrators**|Execute disposal procedures, maintain disposal documentation, implement automated retention controls, and support legal hold activities.|
+|**Information Owners**|Determine business retention requirements, approve disposal activities, participate in retention reviews, and ensure appropriate information handling.|
+|**Compliance Team**|Monitor retention compliance, conduct disposal audits, report compliance status, and coordinate regulatory requirements.|
+|**All Workforce Members**|Comply with retention requirements, participate in legal holds, properly dispose of information, and report retention violations.|
+|**Audit Team**|Conduct retention and disposal audits, validate compliance with policies, review disposal documentation, and report audit findings.|
 **Legal Hold:** Suspension of normal records disposal to preserve information that may be relevant to litigation.
 
 **Media Sanitization:** Process of removing information from storage media such that recovery is not feasible.

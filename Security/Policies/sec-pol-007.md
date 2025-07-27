@@ -35,11 +35,12 @@ A formal AI governance structure shall be established to oversee the evaluation,
 **3.1.2 AI Risk Assessment Process**
 
 **Pre-Implementation Assessment:**
-- Comprehensive risk assessment required for all AI tools before deployment
-- Data sensitivity analysis including ePHI and personal information handling
-- Bias and fairness evaluation for AI systems affecting individuals
-- Privacy impact assessment for AI applications processing personal data
-- Security assessment including data protection and access controls
+- A formal, documented risk assessment is required for all new AI tools or significant changes to existing tools before deployment.
+- Data sensitivity analysis to identify the use of ePHI, PII, or other confidential information.
+- Bias and fairness evaluation for AI systems that could impact individuals.
+- Privacy Impact Assessment (PIA) for AI applications processing personal data.
+- Security assessment of the AI tool and its vendor, including data protection and access controls.
+- The completed risk assessment must be submitted to and formally approved by the AI Governance Committee prior to use.
 
 **Risk Categories:**
 - **High Risk:** AI systems processing ePHI, making automated decisions affecting individuals, or handling Restricted data
@@ -53,23 +54,21 @@ AI systems shall implement comprehensive data protection measures to safeguard s
 **3.2.1 Data Handling Requirements**
 
 **ePHI and Sensitive Data Protection:**
-- Prohibition of entering ePHI into public AI systems or cloud-based AI services without appropriate safeguards
-- Business Associate Agreements (BAAs) required for all AI vendors processing ePHI
-- Data minimization principles applied to AI training and inference data
-- Encryption requirements for data at rest and in transit for AI systems
-- Access controls and audit logging for all AI system interactions involving sensitive data
+- The use of ePHI or any other Restricted data is strictly prohibited in any public or third-party AI system unless the service is explicitly listed in the company's Approved AI Service Catalog and is governed by a signed Business Associate Agreement (BAA).
+- Data minimization principles shall be applied to all AI training and inference data, ensuring only the minimum necessary data is used for the intended purpose.
+- Encryption is required for all data at rest and in transit for AI systems handling Confidential or Restricted data.
+- Access to AI systems handling sensitive data shall be logged and reviewed at least quarterly.
 
 **Data Anonymization and De-identification:**
-- Proper de-identification procedures for healthcare data used in AI systems
-- Anonymization techniques for removing personal identifiers from training data
-- Regular validation of de-identification effectiveness
-- Documentation of anonymization methods and their limitations
-- Prohibition of re-identification attempts on anonymized data
+- When healthcare data is used for AI model training, it must be de-identified in accordance with the standards set forth in the HIPAA Privacy Rule (45 CFR § 164.514), using either the Safe Harbor method or Expert Determination.
+- The de-identification method used must be documented and the documentation retained.
+- Regular validation of de-identification effectiveness shall be conducted.
+- Any attempt to re-identify individuals from a de-identified dataset is strictly prohibited.
 
 **3.2.2 Third-Party AI Service Usage**
 
 **Approved AI Services:**
-- Maintenance of approved AI service catalog with security and privacy assessments
+- The AI Governance Committee shall maintain an inventory of approved AI services, including documentation of their security and privacy assessments
 - Contractual requirements for data protection, privacy, and compliance
 - Vendor assessment including data handling practices, security controls, and compliance certifications
 - Geographic data location restrictions and cross-border transfer limitations
@@ -302,4 +301,5 @@ This policy is designed to comply with and support the following industry standa
 |**IT Security Team**|Implement AI security controls, monitor AI system security, respond to AI security incidents, and maintain AI security infrastructure.|
 |**Business Unit Leaders**|Ensure team compliance with AI policies, approve AI tool usage, provide business requirements for AI systems, and support AI governance activities.|
 |**Legal and Compliance Team**|Ensure AI regulatory compliance, review AI contracts and agreements, assess legal risks, and provide guidance on AI liability issues.|
+|**All Workforce Members**|Comply with AI acceptable use policies, report AI-related concerns, complete required AI training, and use AI tools responsibly and ethically.|
 |**All Workforce Members**|Comply with AI acceptable use policies, report AI-related concerns, complete required AI training, and use AI tools responsibly and ethically.|

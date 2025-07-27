@@ -43,7 +43,7 @@ This policy applies to all **[Company Name]** workforce members, facilities, inf
 
 **3.1.2 Business Impact Analysis (BIA)**
 
-A comprehensive Business Impact Analysis shall be conducted annually to identify critical business functions and recovery requirements.
+The Business Continuity Manager, in coordination with Business Unit Leaders, shall conduct and formally document a comprehensive Business Impact Analysis (BIA) at least annually, or whenever a significant change to business operations occurs. The BIA report, which defines the recovery requirements for all critical functions, must be reviewed and formally approved by the Information Security Committee.
 
 **Critical Function Identification:**
 - **Immediate (0-4 hours):** Patient care systems, emergency services, life safety systems
@@ -278,16 +278,19 @@ Systematic procedures shall guide the restoration of normal operations following
 
 **3.7.2 Post-Incident Review**
 
+Following any activation of the BCDR plan, a formal post-incident review shall be conducted.
+
 **Comprehensive Analysis:**
-- Timeline reconstruction and response effectiveness evaluation
+- A formal Post-Incident Report shall be created, detailing the timeline of events, response effectiveness, and root cause analysis.
 - Root cause analysis and contributing factor identification
 - Cost analysis and financial impact assessment
 - Stakeholder feedback collection and analysis
 - Regulatory compliance validation and reporting
 
 **Improvement Implementation:**
-- Plan updates based on lessons learned and identified gaps
-- Process improvements and capability enhancements
+- All findings and lessons learned shall be documented.
+- Action items for improvement shall be assigned an owner and due date and tracked to completion in a formal Plan of Action and Milestones (POA&M).
+- The BCDR plan and related procedures shall be updated based on the approved action items.
 - Training program updates and workforce development
 - Technology and infrastructure improvements
 - Vendor relationship and agreement modifications

@@ -28,7 +28,7 @@ To ensure passwords are resistant to common attack vectors, all user-created pas
         
     - Special characters (e.g., `!@#$%^&*()`)
         
-- **Prohibited Content:** Passwords must not contain common or easily guessable information. This includes, but is not limited to:
+- **Prohibited Content:** Passwords must not contain common or easily guessable information. Systems shall be configured to check new passwords against a blocklist of common passwords and previously breached credentials. This includes, but is not limited to:
     
     - Company names (e.g., `[Company Name]`) or variations.
         
@@ -43,7 +43,7 @@ To ensure passwords are resistant to common attack vectors, all user-created pas
 
 Passwords must be actively managed throughout their lifecycle to limit the window of opportunity should a credential be compromised.
 
-- **Password Age:** All user passwords must be changed at least every **[Number, e.g., 90]** days.
+- **Password Age:** All user passwords must be changed at least every **[Number, e.g., 90]** days. This requirement may be waived for specific systems where strong MFA is enforced and breached password screening is active, subject to a documented risk assessment approved by the Security Officer.
     
 - **Password History:** Systems must be configured to prevent the reuse of the previous **[Number, e.g., 5]** passwords for a given account.
     
@@ -52,20 +52,20 @@ Passwords must be actively managed throughout their lifecycle to limit the windo
 
 **3.3 Multi-Factor Authentication (MFA)**
 
-MFA is required to provide an additional layer of security for all accounts.
+MFA is required to provide an additional layer of security and shall be enforced for all workforce members across all company systems where the feature is supported.
 
-- MFA must be enabled and enforced for all remote access to the corporate network (e.g., VPN).
+- MFA must be enabled for all remote access to the corporate network (e.g., VPN).
     
-- MFA is mandatory for accessing any system, application, or service that stores, processes, or transmits ePHI or other data classified as Confidential.
+- MFA is mandatory for accessing any system, application, or service that stores, processes, or transmits data classified as Confidential or Restricted, including ePHI.
     
-- Approved MFA methods include authenticator applications (TOTP), hardware tokens, or biometric identifiers. SMS-based MFA is not permitted for accessing systems containing ePHI.
+- Approved MFA methods include authenticator applications (TOTP), hardware tokens, or biometric identifiers. SMS-based MFA is prohibited for accessing systems containing Restricted data.
     
 
 **3.4 Password Protection and Storage**
 
 Workforce members are responsible for the protection of their credentials.
 
-- Passwords must never be written down, stored in plain text files, or shared with any other individual, including managers or IT staff.
+- Passwords must never be written down, stored in plain text files, or shared with any other individual, including managers or IT staff. Passwords must not be transmitted via insecure channels such as email or instant messaging.
     
 - The use of a company-approved and encrypted password manager is strongly encouraged for managing credentials.
     

@@ -10,7 +10,7 @@ This policy applies to all **[Company Name]** workforce members, contractors, an
 
 ### 3. Policy
 
-**[Company Name]** shall implement comprehensive cryptographic controls to protect the confidentiality, integrity, and authenticity of sensitive information throughout its lifecycle.
+**[Company Name]** shall implement and maintain comprehensive, auditable cryptographic controls to protect the confidentiality, integrity, and authenticity of sensitive information throughout its lifecycle.
 
 **3.1 Encryption Requirements**
 
@@ -18,12 +18,12 @@ Encryption shall be implemented for all sensitive information based on data clas
 
 **3.1.1 Mandatory Encryption Requirements**
 
-The following data types and scenarios require mandatory encryption:
+The following data types and scenarios require mandatory encryption using algorithms approved in section 3.1.2 of this policy:
 
 **Electronic Protected Health Information (ePHI):**
-- ePHI at rest: Encrypted using **[Standard, e.g., AES-256]** or equivalent approved algorithm
-- ePHI in transit: Encrypted using **[Protocol, e.g., TLS 1.3]** or equivalent secure transport protocol
-- ePHI on mobile devices and removable media: Full device/media encryption required
+- ePHI at rest: Encrypted using AES-256 or a stronger approved algorithm.
+- ePHI in transit: Encrypted using TLS 1.2 or higher, with a strong cipher suite configuration.
+- ePHI on mobile devices and removable media: Full device/media encryption is mandatory.
 
 **Confidential and Restricted Data:**
 - Database encryption for sensitive data fields using transparent data encryption (TDE) or column-level encryption
@@ -32,21 +32,21 @@ The following data types and scenarios require mandatory encryption:
 - Backup encryption for all backup media and archives
 
 **Authentication Credentials:**
-- Password hashes using strong cryptographic hash functions (e.g., **[Standard, e.g., bcrypt, Argon2]**)
-- API keys and tokens encrypted at rest
-- Digital certificates and private keys protected by hardware security modules (HSMs) or secure key storage
+- Password hashes using a strong, salted cryptographic hash function (e.g., bcrypt, Argon2).
+- API keys and tokens encrypted at rest.
+- Digital certificates and private keys protected by hardware security modules (HSMs) or equivalent secure key storage mechanisms.
 
 **3.1.2 Encryption Standards and Algorithms**
 
-Only cryptographically strong, industry-standard algorithms shall be used:
+Only cryptographically strong, industry-standard algorithms and protocols approved by the Security Officer shall be used. The use of any algorithm not on the approved list is prohibited.
 
 **Approved Symmetric Encryption Algorithms:**
 - AES (Advanced Encryption Standard) with key lengths of 128, 192, or 256 bits
 - ChaCha20-Poly1305 for authenticated encryption
 
 **Approved Asymmetric Encryption Algorithms:**
-- RSA with minimum key length of 2048 bits (4096 bits preferred)
-- Elliptic Curve Cryptography (ECC) with minimum key length of 256 bits
+- RSA with minimum key length of 3072 bits (4096 bits preferred).
+- Elliptic Curve Cryptography (ECC) with minimum key length of 256 bits.
 
 **Approved Hash Functions:**
 - SHA-256, SHA-384, SHA-512 for data integrity
@@ -56,7 +56,8 @@ Only cryptographically strong, industry-standard algorithms shall be used:
 - DES (Data Encryption Standard) and 3DES
 - MD5 and SHA-1 hash functions
 - RC4 stream cipher
-- RSA keys shorter than 2048 bits
+- RSA keys shorter than 3072 bits
+- SSL v2, SSL v3, TLS 1.0, TLS 1.1
 
 **3.2 Key Management Framework**
 
@@ -64,10 +65,10 @@ A comprehensive key management system shall be implemented to ensure the secure 
 
 **3.2.1 Key Management Principles**
 
-- **Separation of Duties:** Key management roles shall be separated to prevent any single individual from having complete control over key lifecycle
-- **Least Privilege:** Access to keys shall be limited to the minimum necessary for authorized functions
-- **Key Escrow:** Critical encryption keys shall be escrowed to ensure data recovery capability
-- **Audit Trail:** All key management activities shall be logged and monitored
+- **Separation of Duties:** Key management roles and responsibilities shall be formally assigned and separated to prevent any single individual from having unilateral control over a key's lifecycle.
+- **Least Privilege:** Access to cryptographic keys shall be restricted to the minimum necessary for an individual or system to perform its authorized function.
+- **Key Escrow:** Critical encryption keys required for data recovery shall be securely escrowed. The process for accessing escrowed keys must require documented approval from at least two authorized individuals.
+- **Audit Trail:** All key management activities, including generation, distribution, rotation, and destruction, shall be logged in a secure, immutable audit trail and monitored for anomalies.
 
 **3.2.2 Key Generation**
 
@@ -78,34 +79,35 @@ A comprehensive key management system shall be implemented to ensure the secure 
 
 **3.2.3 Key Distribution and Exchange**
 
-- Key distribution shall use secure, authenticated channels
-- Public key infrastructure (PKI) shall be used for asymmetric key distribution
-- Key exchange protocols shall provide forward secrecy where technically feasible
-- Manual key distribution shall require dual control and documented approval
+- Key distribution shall use secure, authenticated channels (e.g., TLS 1.2 or higher).
+- Public key infrastructure (PKI) shall be the primary method for asymmetric key distribution.
+- Key exchange protocols shall be configured to provide perfect forward secrecy (PFS). Any deviation must be documented and approved by the Security Officer.
+- Manual key distribution is prohibited without dual control and documented, time-bound approval from the Security Officer.
 
 **3.2.4 Key Storage and Protection**
 
 - Encryption keys shall be stored separately from the data they protect
 - Master keys shall be stored in HSMs or equivalent tamper-resistant hardware
 - Key storage systems shall be hardened and subject to strict access controls
-- Encryption keys shall themselves be encrypted when stored (key encryption keys)
-- Cloud-based key management services shall meet **[Company Name]** security standards
+- Encryption keys shall themselves be encrypted at rest using a separate key encryption key (KEK).
+- Cloud-based key management services (e.g., AWS KMS, Azure Key Vault) must be configured in accordance with the **[Company Name]** `Cloud Security Policy` and `Third-Party Risk Management Policy`.
 
 **3.2.5 Key Usage and Access Controls**
 
 - Key access shall be granted only to authorized personnel and applications
 - Multi-factor authentication shall be required for access to key management systems
-- Key usage shall be logged and monitored for unauthorized access attempts
-- Automated key rotation shall be implemented where technically feasible
-- Emergency key access procedures shall be documented and tested
+- Key usage shall be logged and actively monitored for unauthorized access attempts or anomalous usage patterns.
+- Automated key rotation shall be implemented. Where automation is not technically feasible, the justification must be documented and approved by the Security Officer, and a manual rotation schedule must be tracked.
+- Emergency key access procedures shall be documented, tested annually, and require multi-person control.
 
 **3.2.6 Key Rotation and Lifecycle Management**
 
-- Encryption keys shall be rotated according to established schedules:
-  - Data encryption keys: **[Frequency, e.g., Annually]** or after **[Amount, e.g., 100GB]** of data encrypted
-  - Key encryption keys: **[Frequency, e.g., Every 2 years]**
-  - SSL/TLS certificates: **[Frequency, e.g., Annually]** or per certificate authority recommendations
-  - Authentication keys: **[Frequency, e.g., Every 6 months]**
+Encryption keys shall be rotated at or before the following minimum frequencies. A shorter rotation period shall be used if required by a specific regulation, standard, or risk assessment.
+
+- Data encryption keys: Annually or after encrypting **[Amount, e.g., 1TB]** of data, whichever comes first.
+- Key encryption keys: Every 2 years.
+- SSL/TLS certificates: Annually, or as required by the Certificate Authority.
+- Authentication keys (e.g., API keys): Every 6 months.
 
 - Emergency key rotation shall be performed immediately upon:
   - Suspected key compromise
@@ -115,11 +117,11 @@ A comprehensive key management system shall be implemented to ensure the secure 
 
 **3.2.7 Key Destruction and Disposal**
 
-- Keys shall be securely destroyed when no longer needed
-- Key destruction shall use cryptographically secure deletion methods
-- HSMs shall perform secure key zeroization procedures
-- Physical destruction of key storage media shall be verified and documented
-- Key destruction activities shall be logged and audited
+- Cryptographic keys shall be securely destroyed as soon as they are no longer required for business or legal purposes.
+- Key destruction shall use cryptographically secure deletion methods (e.g., cryptographic erasure, overwriting with random data multiple times).
+- HSMs shall perform secure key zeroization procedures.
+- Physical destruction of media that stored keys shall be performed in accordance with the `Media Sanitization and Disposal Policy` and be verified and documented.
+- All key destruction activities shall be logged and auditable.
 
 **3.3 Digital Certificates and Public Key Infrastructure (PKI)**
 
@@ -134,28 +136,28 @@ A comprehensive key management system shall be implemented to ensure the secure 
 
 **3.3.2 Certificate Lifecycle Management**
 
-- Certificate requests shall be validated and approved through formal processes
-- Certificate templates shall define appropriate key usage and validity periods
-- Certificate revocation capabilities shall be maintained through Certificate Revocation Lists (CRLs) or Online Certificate Status Protocol (OCSP)
-- Expired certificates shall be removed from systems promptly
+- Certificate requests shall be validated and approved through a formal, documented process managed by the IT Security Team.
+- Certificate templates shall be used to enforce appropriate key usage, algorithm strength, and validity periods.
+- Certificate revocation capabilities shall be maintained and tested annually through Certificate Revocation Lists (CRLs) or Online Certificate Status Protocol (OCSP).
+- Automated monitoring and alerting shall be implemented to ensure expired or revoked certificates are removed from systems at least 7 days prior to expiration.
 
 **3.4 Cloud Encryption and Key Management**
 
-Special requirements shall apply to encryption and key management in cloud environments.
+All use of cloud services must adhere to the following cryptographic requirements, as detailed in the `Cloud Security Policy`.
 
 **3.4.1 Cloud Encryption Requirements**
 
-- Customer-managed encryption keys (CMEK) shall be used for sensitive data in cloud storage
-- Encryption shall be implemented at multiple layers (application, database, storage)
-- Cloud provider encryption services shall be evaluated for compliance with **[Company Name]** standards
-- Data sovereignty requirements shall be considered for cross-border data storage
+- Customer-managed encryption keys (CMEK) shall be used for all production data stores containing ePHI or other Restricted data in cloud environments.
+- Encryption shall be implemented at multiple layers (e.g., application, database, storage, network) to provide defense-in-depth.
+- Cloud provider encryption services and configurations shall be reviewed and approved by the IT Security Team before use.
+- Data sovereignty and residency requirements shall be enforced through technical controls for all data stored in the cloud.
 
 **3.4.2 Cloud Key Management**
 
-- Dedicated key management services shall be used for cloud-based encryption
-- Hybrid key management architectures shall maintain on-premises control of master keys
-- Cloud HSM services shall be used for high-security requirements
-- Key export capabilities shall be maintained to prevent vendor lock-in
+- **[Company Name]**-controlled key management services (e.g., AWS KMS, Azure Key Vault) shall be the required standard for all cloud-based encryption.
+- Hybrid key management architectures (e.g., "Hold Your Own Key" or HYOK) shall be implemented where feasible to maintain on-premises control of master keys for the most sensitive data.
+- Cloud HSM services shall be used for high-security applications as determined by the Security Officer.
+- Key export capabilities shall be tested annually to ensure data can be decrypted and migrated, preventing vendor lock-in.
 
 **3.5 Encryption Performance and Monitoring**
 
@@ -170,10 +172,10 @@ Encryption implementations shall be monitored for performance impact and securit
 
 **3.5.2 Security Monitoring**
 
-- Encryption failures and errors shall be logged and investigated
-- Key management system access shall be monitored for suspicious activity
-- Certificate expiration monitoring shall prevent service disruptions
-- Crypto-agility planning shall address algorithm obsolescence and quantum computing threats
+- Cryptographic failures, errors, and misconfigurations shall be logged and trigger automated alerts to the IT Security Team for immediate investigation.
+- Key management system access and activity logs shall be ingested into a Security Information and Event Management (SIEM) system and monitored for suspicious activity.
+- Automated certificate expiration monitoring and alerting shall be implemented to prevent service disruptions.
+- An annual review of cryptographic standards shall be conducted to maintain a crypto-agility plan, addressing algorithm obsolescence and emerging threats such as quantum computing.
 
 ### 4. Standards Compliance
 
@@ -185,11 +187,12 @@ This policy is designed to comply with and support the following industry standa
 |**3.1.1**|HIPAA Security Rule|45 CFR § 164.312(e)(2)(ii) - Encryption|
 |**All**|HIPAA Security Rule|45 CFR § 164.312(e)(1) - Transmission Security|
 |**3.2**|SOC 2 Trust Services Criteria|CC6.1 - Logical Access Security|
-|**3.1, 3.2**|SOC 2 Trust Services Criteria|CC6.7 - Data Transmission|
-|**3.2**|SOC 2 Trust Services Criteria|CC6.8 - System Security|
-|**All**|NIST Cybersecurity Framework|PR.DS-1 - Data protection|
-|**3.2**|NIST SP 800-57|Key Management|
-|**All**|ISO/IEC 27001:2022|A.10.1 - Cryptographic controls|
+|**3.1, 3.2**|SOC 2 Trust Services Criteria|CC6.6 - Other Controls to Achieve Logical Access Security Objectives|
+|**3.2**|SOC 2 Trust Services Criteria|CC6.8 - Restricts Access to Encrypted Data|
+|**All**|NIST Cybersecurity Framework|PR.DS-1: Data-at-rest is protected.|
+|**All**|NIST Cybersecurity Framework|PR.DS-2: Data-in-transit is protected.|
+|**3.2**|NIST SP 800-57|Recommendation for Key Management|
+|**All**|ISO/IEC 27001:2022|A.8.24 - Use of cryptography|
 
 ### 5. Definitions
 
@@ -218,6 +221,14 @@ This policy is designed to comply with and support the following industry standa
 |**System Administrators**|Configure and maintain encryption systems, perform key rotation procedures, and ensure proper encryption deployment.|
 |**Database Administrators**|Implement database encryption, manage database encryption keys, and ensure encrypted backup procedures.|
 |**Cloud Engineers**|Configure cloud encryption services, manage cloud-based key management, and ensure proper cloud cryptographic controls.|
-|**Application Developers**|Implement application-level encryption, use approved cryptographic libraries, and follow secure coding practices.|
-|**Privacy Officer**|Ensure encryption requirements meet privacy obligations, oversee ePHI encryption, and coordinate with security team.|
-|**All Workforce Members**|Use encryption tools properly, protect encryption credentials, and report suspected encryption failures or key compromises.|
+|**Application Developers**|Implement application-level encryption using approved cryptographic libraries, protect secrets in code, and follow secure coding practices as defined in the `Secure Development Lifecycle Policy`.|
+|**Privacy Officer**|Ensure encryption requirements meet privacy obligations, oversee ePHI encryption protections, and coordinate with the Security Officer on data protection strategies.|
+|**All Workforce Members**|Use encryption tools as required, protect credentials used for encryption systems, and immediately report suspected encryption failures or key compromises to the IT Security Team.|
+
+### 7. Enforcement
+
+Failure to comply with this policy may result in disciplinary action, up to and including termination of employment or contract, in accordance with **[Company Name]**'s `Human Resources Security Policy`. Violations may also carry civil and criminal penalties.
+
+### 8. Exceptions
+
+Any exception to this policy must be documented, identifying the associated risks and mitigating controls, and must be submitted to the Security Officer for formal written approval. Approved exceptions will be reviewed on an annual basis.

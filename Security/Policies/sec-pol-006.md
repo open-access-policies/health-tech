@@ -92,7 +92,7 @@ All company equipment and physical assets shall be protected against theft, dama
 
 **3.3 Cloud Provider Physical Security Oversight**
 
-**[Company Name]** shall validate and monitor the physical security controls implemented by cloud service providers to ensure appropriate protection of company data and systems.
+**[Company Name]** shall validate and monitor the physical security controls implemented by cloud service providers to ensure appropriate protection of company data and systems. This oversight is the responsibility of the designated Cloud Security Team or Security Officer.
 
 **3.3.1 Cloud Provider Assessment**
 
@@ -104,20 +104,20 @@ All company equipment and physical assets shall be protected against theft, dama
 - Geographic separation of data centers for disaster recovery and business continuity
 
 **Compliance Validation:**
-- Annual review of cloud provider security certifications and audit reports
-- Validation of physical security controls through third-party assessments
-- Contractual requirements for physical security standards and incident notification
-- Right to audit or inspect physical facilities for critical cloud services
-- Geographic data location controls and cross-border transfer restrictions
+- The Cloud Security Team shall conduct and document an annual review of all critical cloud providers' security certifications (e.g., SOC 2 Type II, ISO 27001) and audit reports.
+- Validation of physical security controls through review of third-party assessments.
+- Contractual agreements must include requirements for physical security standards and incident notification within a defined timeframe.
+- Right-to-audit clauses shall be included in contracts for critical cloud services where feasible.
+- Geographic data location controls shall be configured to align with legal and regulatory requirements.
 
 **3.3.2 Cloud Security Monitoring**
 
 **Ongoing Oversight:**
-- Regular review of cloud provider security incident reports and notifications
-- Monitoring of cloud provider security advisories and control changes
-- Assessment of cloud provider business continuity and disaster recovery capabilities
-- Validation of data center certifications and compliance status
-- Coordination with cloud providers for security investigations and incident response
+- The Cloud Security Team shall conduct and document a quarterly review of cloud provider security incident reports and notifications.
+- Continuous monitoring of cloud provider security advisories and documentation for significant control changes.
+- An annual assessment of cloud provider business continuity and disaster recovery test results shall be conducted and documented.
+- The Cloud Security Team shall validate that data center certifications and compliance status remain active and in good standing.
+- Coordination with cloud providers for security investigations and incident response shall be managed by the Security Officer and Incident Response Team.
 
 **3.4 Physical Document and Information Security**
 

@@ -28,11 +28,11 @@ This policy applies to all **[Company Name]** workforce members, contractors, an
 
 **[Company Name]** shall proactively identify information security risks through multiple sources and methods.
 
-- Comprehensive risk assessments shall be conducted annually and whenever significant changes occur to systems, processes, or the business environment.
+- Comprehensive risk assessments shall be conducted at least annually and whenever significant changes occur to systems, processes, or the business environment.
 
 - Threat intelligence sources shall be monitored to identify emerging risks and attack vectors relevant to the healthcare industry.
 
-- Vulnerability assessments and penetration testing shall be conducted regularly to identify technical vulnerabilities.
+- Vulnerability scanning shall be conducted at least quarterly for external-facing systems and annually for internal systems. External penetration testing shall be conducted at least annually.
 
 - Business process reviews shall be conducted to identify operational and procedural risks.
 
@@ -63,7 +63,7 @@ All identified risks shall be analyzed to determine their potential impact and l
   - Effectiveness of existing controls
   - Historical incident data and industry trends
 
-- Risk levels shall be determined using a standardized risk matrix with clearly defined criteria for **High**, **Medium**, and **Low** risk ratings.
+- Risk levels shall be determined using a standardized risk matrix. The criteria for impact, likelihood, and the resulting risk levels (**High**, **Medium**, **Low**) shall be formally documented and approved by the Information Security Committee.
 
 **3.4 Risk Treatment**
 
@@ -179,7 +179,7 @@ This policy is designed to comply with and support the following industry standa
 
 |**Role**|**Responsibility**|
 |---|---|
-|**Executive Leadership**|Establish risk appetite and tolerance levels. Approve risk treatment strategies for high-risk items. Provide resources for risk management activities.|
+|**Executive Leadership**|Formally document, approve, and annually review the company's risk appetite and tolerance levels. Approve risk treatment strategies for high-risk items. Provide resources for risk management activities.|
 |**Security Officer**|Own and maintain the risk management program. Conduct risk assessments and coordinate risk treatment activities. Report risk status to leadership.|
 |**Information Security Committee**|Review and approve risk management policies and procedures. Oversee high-risk treatment decisions and resource allocation.|
 |**Risk Management Team**|Support risk assessment activities, maintain the risk register, and monitor risk treatment effectiveness.|
