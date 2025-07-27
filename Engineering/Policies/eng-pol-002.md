@@ -1,0 +1,100 @@
+# Change Control Policy (ENG-POL-002)
+
+### 1. Objective
+
+The objective of this policy is to establish a formal process for managing all changes to **[Company Name]**'s production systems, applications, and infrastructure. This policy ensures that all modifications are properly authorized, tested, documented, and reviewed to maintain system stability, security, and integrity, thereby protecting sensitive data, including electronic Protected Health Information (ePHI).
+
+### 2. Scope
+
+This policy applies to all workforce members involved in the development, testing, approval, and deployment of changes to any production environment. This includes all applications, source code, infrastructure-as-code configurations, and databases that support **[Company Name]**'s services.
+
+### 3. Policy
+
+All changes to the production environment must adhere to a structured and auditable lifecycle, from initiation to deployment and post-implementation review. GitHub is the designated system of record for tracking all code and configuration changes.
+
+**3.1 Standard Change Process**
+
+All non-emergency changes must follow this standard process:
+
+- **Initiation:** Every change must begin with a ticket in the company's issue tracking system, which details the business justification and technical requirements.
+    
+- **Development:** All code and configuration changes must be developed in a separate feature branch within the designated GitHub repository.
+    
+- **Peer Code Review:** Before a change can be promoted for testing, it must be submitted as a pull request in GitHub and receive a formal, documented approval from at least one other qualified engineer who was not an author of the change. A qualified reviewer is defined as an engineer with equivalent or greater seniority or subject-matter expertise. The review must assess code quality, functionality, and adherence to secure coding standards.
+    
+- **Security Review:** All pull request templates must include a mandatory security checklist. If the developer indicates the change touches sensitive data, authentication, authorization, encryption, or ePHI, a security review is automatically required and must be completed by the Security Team before merging.
+    
+- **Testing:** All changes must pass a full suite of automated tests. Additionally, the Quality Assurance (QA) team must conduct manual testing and provide formal sign-off, confirming the change meets requirements and does not introduce regressions.
+    
+- **Deployment Approval:** Final approval to merge the change into the production release branch must be granted by authorized personnel (e.g., Engineering Lead or Manager) within the GitHub pull request.
+    
+
+**3.2 Emergency Changes**
+
+An emergency change is defined as a modification required to resolve a critical production outage, a severe service degradation, or to patch a critical security vulnerability.
+
+- **Authorization:** An emergency change requires documented approval from at least one authorized Engineering Lead and one member of the Security Team.
+    
+- **Expedited Review:** Peer code review and security review are still mandatory but may be expedited. The focus is on validating the fix and assessing any immediate risks.
+    
+- **Post-Mortem:** All emergency changes must be followed by a formal post-mortem review within **[Number, e.g., 3]** business days to analyze the root cause and identify opportunities for process improvement. The standard change documentation, including linking the pull request to a ticket, must be completed retroactively.
+    
+- **Oversight:** A log of all emergency changes will be maintained and reviewed on a quarterly basis by Engineering Management to identify trends and ensure the emergency process is not being used to bypass standard change controls.
+    
+
+**3.3 Data-Only Changes**
+
+Data-only changes, such as manual database updates that are not part of a standard code release, must be treated with extreme caution.
+
+- **Formal Request:** All data-only changes require a formal request ticket that includes the script to be run, the business justification, the expected impact, and a detailed rollback plan.
+    
+- **Approval:** The request must be approved by the data or system owner. If the change affects ePHI or other Confidential data, approval from the Security Officer is also required.
+    
+- **Execution:** Changes must be executed as peer-reviewed scripts by authorized personnel with privileged database access (e.g., a Database Administrator). The execution of the approved script, including the system-generated output (e.g., number of rows affected), must be captured and appended to the original request ticket upon completion. Direct production database access for developers is prohibited.
+    
+
+**3.4 Change Documentation and Tracking**
+
+- **System of Record:** GitHub pull requests serve as the auditable record for all code and configuration changes.
+    
+- **Traceability:** Every pull request must be linked to its corresponding issue tracking ticket. The pull request description must summarize the change, the testing performed, and the outcome of all required reviews. Approvals must be captured via the native review and approval features within GitHub.
+    
+- **Technical Enforcement:** The `main` and any `production` or `release` branches in all repositories within the scope of this policy must be technically protected to prevent direct commits. All changes must be enforced through the pull request workflow.
+    
+
+**3.5 Change Notifications**
+
+- **Internal Notification:** The engineering team must notify relevant internal stakeholders (e.g., Customer Support, Operations) of all upcoming production deployments via designated communication channels (e.g., Slack, email).
+    
+- **External Notification:** For changes that will have a noticeable impact on customers or partners, the Product Management team is responsible for providing advance notification with sufficient lead time.
+    
+
+### 4. Standards Compliance
+
+This policy is designed to comply with and support the following industry standards and regulations.
+
+| **Policy Section** | **Standard/Framework**        | **Control Reference**                                                                 |
+| ------------------ | ----------------------------- | ------------------------------------------------------------------------------------- |
+| **All**            | HIPAA Security Rule           | 45 CFR § 164.308(a)(1)(ii)(C) - Authorization and/or supervision                      |
+| **3.1, 3.2**       | HIPAA Security Rule           | 45 CFR § 164.312(c)(1) - Integrity                                                    |
+| **3.4**            | HIPAA Security Rule           | 45 CFR § 164.312(b) - Audit Controls                                                  |
+| **All**            | SOC 2 Trust Services Criteria | CC3.2 - The entity designs, develops, and implements controls over change management. |
+
+### 5. Definitions
+
+- **Change:** Any modification to production code, system configurations, or database schemas.
+    
+- **Production Environment:** The live environment that serves **[Company Name]**'s customers and processes real data.
+    
+- **Pull Request:** A feature in GitHub that facilitates the peer review and merging of code from one branch into another.
+    
+
+### 6. Responsibilities
+
+| **Role**                        | **Responsibility**                                                                                                 |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Engineering Team**            | Develop, test, and document changes in accordance with this policy. Conduct peer code reviews.                     |
+| **Security Team**               | Review changes for security implications and approve or reject them based on risk.                                 |
+| **Quality Assurance (QA) Team** | Verify that changes meet functional requirements and do not introduce defects. Provide formal testing sign-off.    |
+| **Engineering Management**      | Provide final approval for changes to be deployed to production. Authorize emergency changes.                      |
+| **System / Data Owners**        | Provide approval for changes affecting their specific systems or data domains, particularly for Data-Only Changes. |
