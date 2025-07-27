@@ -54,7 +54,7 @@ AI systems shall implement comprehensive data protection measures to safeguard s
 **3.2.1 Data Handling Requirements**
 
 **ePHI and Sensitive Data Protection:**
-- The use of ePHI or any other Restricted data is strictly prohibited in any public or third-party AI system unless the service is explicitly listed in the company's Approved AI Service Catalog and is governed by a signed Business Associate Agreement (BAA).
+- The use of ePHI or any other Restricted data is *strictly prohibited* in any public or third-party AI system unless the service is explicitly listed in the company's Approved AI Service Catalog and is governed by a signed Business Associate Agreement (BAA).
 - Data minimization principles shall be applied to all AI training and inference data, ensuring only the minimum necessary data is used for the intended purpose.
 - Encryption is required for all data at rest and in transit for AI systems handling Confidential or Restricted data.
 - Access to AI systems handling sensitive data shall be logged and reviewed at least quarterly.
@@ -301,5 +301,4 @@ This policy is designed to comply with and support the following industry standa
 |**IT Security Team**|Implement AI security controls, monitor AI system security, respond to AI security incidents, and maintain AI security infrastructure.|
 |**Business Unit Leaders**|Ensure team compliance with AI policies, approve AI tool usage, provide business requirements for AI systems, and support AI governance activities.|
 |**Legal and Compliance Team**|Ensure AI regulatory compliance, review AI contracts and agreements, assess legal risks, and provide guidance on AI liability issues.|
-|**All Workforce Members**|Comply with AI acceptable use policies, report AI-related concerns, complete required AI training, and use AI tools responsibly and ethically.|
 |**All Workforce Members**|Comply with AI acceptable use policies, report AI-related concerns, complete required AI training, and use AI tools responsibly and ethically.|

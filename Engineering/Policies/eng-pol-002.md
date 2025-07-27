@@ -69,6 +69,14 @@ Data-only changes, such as manual database updates that are not part of a standa
 - **External Notification:** For changes that will have a noticeable impact on customers or partners, the Product Management team is responsible for providing advance notification with sufficient lead time.
     
 
+**3.6 Branch Protection**
+
+To enforce the change control process described in this policy, all `main`, `production`, and `release` branches in repositories within the scope of this policy must have GitHub branch protection rules configured. At a minimum, these rules must be enabled to:
+
+- **Require a pull request before merging:** Direct pushes to protected branches must be disabled. All changes must be made via a pull request.
+- **Require approvals:** Enforce the peer review and deployment approval requirements outlined in section 3.1.
+- **Require status checks to pass before merging:** Enforce that all required CI/CD checks (e.g., automated tests, security scans) pass successfully before a change can be merged.
+
 ### 4. Standards Compliance
 
 This policy is designed to comply with and support the following industry standards and regulations.
