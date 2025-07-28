@@ -2,7 +2,8 @@
 title: Encryption and Key Management Policy (OP-POL-001)
 parent: Operational Policies
 nav_order: 1
-layout: sidebar
+hide_title: true # Add this line to hide page titles
+no_page_title: true # This removes the page title from the top of each page.
 ---
 
 # Encryption and Key Management Policy (OP-POL-001)
