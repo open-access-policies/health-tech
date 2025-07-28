@@ -108,13 +108,11 @@ defaults:
       layout: "page"
 
 # --- Build settings ---
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "hydecorp/hydejack@v9"
 plugins:
-  # - jekyll-paginate
-  # - jekyll-sitemap
-  # - jekyll-gist
-  # - jekyll-feed
-  # - jemoji
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-include-cache
 
 author:
