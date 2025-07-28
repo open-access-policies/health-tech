@@ -5,7 +5,7 @@ url: "https://open-access-policies.github.io"
 baseurl: "/health-tech"
 
 # --- Theme Skin ---
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "contrast"
 
 # --- Search ---
 search: true
