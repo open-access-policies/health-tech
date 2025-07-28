@@ -9,8 +9,10 @@ hydejack:
   theme: theme-base-08
   sticky_sidebar: true 
   no_page_title: true # This removes the page title from the top of each page.
-  sidebar_bg_image: /assets/images/sidebar-bg.png
+  sidebar_bg_image: /assets/images/sidebar-bg2.png
   invert_sidebar: true # This inverts the sidebar colors to match the theme.
+  # Change the color of links and other highlighted elements.
+  accent_color: rgb(128, 0, 32) # This is a dark red color.
 
 # --- Favicon Settings ---
 favicon: /assets/images/logo.png
