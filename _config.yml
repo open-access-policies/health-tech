@@ -9,7 +9,7 @@ hydejack:
   theme: theme-base-08
   sticky_sidebar: true 
   no_page_title: true # This removes the page title from the top of each page.
-  accent_image: /assets/images/sidebar-bg.png
+  sidebar_bg_image: /assets/images/sidebar-bg.png
   invert_sidebar: true # This inverts the sidebar colors to match the theme.
 
 # --- Favicon Settings ---
@@ -136,5 +136,5 @@ author:
   social:
     github: descentintomael
     email: mailto:sean@openaccesspolicies.org
-    linkedin: seanmtodd
+    linkedin: https://www.linkedin.com/in/seanmtodd
   #   rss: true # To enable the RSS feed icon
