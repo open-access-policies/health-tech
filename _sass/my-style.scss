@@ -8,14 +8,13 @@
 
 $font-serif: "Merriweather", serif;
 $font-sans : "Open Sans", sans-serif;
-$base-color: #FFF;
+$base-color: #111;
 $accent    : #bababa;
 
 body {
   font-family: $font-serif;
   color: $base-color;
   line-height: 1.6;
-  max-width: 800px;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
