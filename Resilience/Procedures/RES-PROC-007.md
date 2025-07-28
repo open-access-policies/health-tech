@@ -1,3 +1,9 @@
+---
+title: BCDR Testing and Exercise Procedure ([RES-PROC-007])
+parent: Resilience Procedures
+nav_order: 7
+---
+
 # BCDR Testing and Exercise Procedure ([RES-PROC-007])
 
 ### 1. Purpose

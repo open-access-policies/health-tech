@@ -1,3 +1,9 @@
+---
+title: IT Disaster Recovery Plan (DRP) ([RES-PROC-005])
+parent: Resilience Procedures
+nav_order: 5
+---
+
 # IT Disaster Recovery Plan (DRP) ([RES-PROC-005])
 
 ### 1. Purpose

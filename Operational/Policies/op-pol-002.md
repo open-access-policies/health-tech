@@ -1,3 +1,9 @@
+---
+title: Mobile Device Policy (BYOD) (OP-POL-002)
+parent: Operational Policies
+nav_order: 2
+---
+
 # Mobile Device Policy (BYOD) (OP-POL-002)
 
 ### 1. Objective

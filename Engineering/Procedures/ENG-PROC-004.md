@@ -1,3 +1,9 @@
+---
+title: Emergency Change Management Procedure (ENG-PROC-004)
+parent: Engineering Procedures
+nav_order: 4
+---
+
 # Emergency Change Management Procedure (ENG-PROC-004)
 
 ### 1. Purpose

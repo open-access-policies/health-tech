@@ -1,3 +1,9 @@
+---
+title: Facility Access Management Procedure (SEC-PROC-006)
+parent: Security Procedures
+nav_order: 6
+---
+
 # Facility Access Management Procedure (SEC-PROC-006)
 
 ### 1. Purpose

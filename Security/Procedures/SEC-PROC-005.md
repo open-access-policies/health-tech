@@ -1,3 +1,9 @@
+---
+title: Vendor Risk Assessment and Onboarding Procedure (SEC-PROC-005)
+parent: Security Procedures
+nav_order: 5
+---
+
 # Vendor Risk Assessment and Onboarding Procedure (SEC-PROC-005)
 
 ### 1. Purpose

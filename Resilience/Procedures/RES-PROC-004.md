@@ -1,3 +1,9 @@
+---
+title: Business Impact Analysis (BIA) Procedure ([RES-PROC-004])
+parent: Resilience Procedures
+nav_order: 4
+---
+
 # Business Impact Analysis (BIA) Procedure ([RES-PROC-004])
 
 ### 1. Purpose

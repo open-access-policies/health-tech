@@ -1,3 +1,9 @@
+---
+title: Privileged Infrastructure Access Review Procedure (ENG-PROC-006)
+parent: Engineering Procedures
+nav_order: 6
+---
+
 # Privileged Infrastructure Access Review Procedure (ENG-PROC-006)
 
 ### 1. Purpose

@@ -1,3 +1,9 @@
+---
+title: HIPAA Breach Risk Assessment Procedure ([RES-PROC-002])
+parent: Resilience Procedures
+nav_order: 2
+---
+
 # HIPAA Breach Risk Assessment Procedure ([RES-PROC-002])
 
 ### 1. Purpose

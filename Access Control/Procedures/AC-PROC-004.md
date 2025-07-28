@@ -1,3 +1,9 @@
+---
+title: Access Control Management Procedure (AC-PROC-004)
+parent: Access Control Procedures
+nav_order: 4
+---
+
 # Access Control Management Procedure (AC-PROC-004)
 
 ### 1. Purpose

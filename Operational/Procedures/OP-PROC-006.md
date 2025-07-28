@@ -1,3 +1,9 @@
+---
+title: Workforce Screening and Background Check Procedure (OP-PROC-006)
+parent: Operational Procedures
+nav_order: 6
+---
+
 # Workforce Screening and Background Check Procedure (OP-PROC-006)
 
 ### 1. Purpose

@@ -1,3 +1,9 @@
+---
+title: Risk Management Policy (SEC-POL-003)
+parent: Security Policies
+nav_order: 3
+---
+
 # Risk Management Policy (SEC-POL-003)
 
 ### 1. Objective

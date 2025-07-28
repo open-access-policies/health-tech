@@ -1,3 +1,9 @@
+---
+title: Change Control Policy (ENG-POL-002)
+parent: Engineering Policies
+nav_order: 2
+---
+
 # Change Control Policy (ENG-POL-002)
 
 ### 1. Objective

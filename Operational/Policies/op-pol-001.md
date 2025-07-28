@@ -1,3 +1,9 @@
+---
+title: Encryption and Key Management Policy (OP-POL-001)
+parent: Operational Policies
+nav_order: 1
+---
+
 # Encryption and Key Management Policy (OP-POL-001)
 
 ### 1. Objective

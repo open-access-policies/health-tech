@@ -1,3 +1,9 @@
+---
+title: Security Policy Sanction Procedure (OP-PROC-008)
+parent: Operational Procedures
+nav_order: 8
+---
+
 # Security Policy Sanction Procedure (OP-PROC-008)
 
 ### 1. Purpose

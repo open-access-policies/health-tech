@@ -1,3 +1,9 @@
+---
+title: Third-Party Component Security Review Procedure (ENG-PROC-002)
+parent: Engineering Procedures
+nav_order: 2
+---
+
 # Third-Party Component Security Review Procedure (ENG-PROC-002)
 
 ### 1. Purpose

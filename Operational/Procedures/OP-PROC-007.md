@@ -1,3 +1,9 @@
+---
+title: Employee Onboarding and Offboarding Security Procedure (OP-PROC-007)
+parent: Operational Procedures
+nav_order: 7
+---
+
 # Employee Onboarding and Offboarding Security Procedure (OP-PROC-007)
 
 ### 1. Purpose

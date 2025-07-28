@@ -1,3 +1,9 @@
+---
+title: Business Continuity and Disaster Recovery Policy (RES-POL-002)
+parent: Resilience Policies
+nav_order: 2
+---
+
 # Business Continuity and Disaster Recovery Policy (RES-POL-002)
 
 ### 1. Objective

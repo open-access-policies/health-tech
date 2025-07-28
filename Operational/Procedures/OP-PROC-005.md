@@ -1,3 +1,9 @@
+---
+title: Legal Hold Procedure (OP-PROC-005)
+parent: Operational Procedures
+nav_order: 5
+---
+
 # Legal Hold Procedure (OP-PROC-005)
 
 ### 1. Purpose

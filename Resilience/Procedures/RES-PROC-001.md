@@ -1,3 +1,9 @@
+---
+title: Incident Response Plan (IRP) ([RES-PROC-001])
+parent: Resilience Procedures
+nav_order: 1
+---
+
 # Incident Response Plan (IRP) ([RES-PROC-001])
 
 ### 1. Purpose

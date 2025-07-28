@@ -1,3 +1,9 @@
+---
+title: Cryptographic Key Lifecycle Management Procedure (OP-PROC-001)
+parent: Operational Procedures
+nav_order: 1
+---
+
 # Cryptographic Key Lifecycle Management Procedure (OP-PROC-001)
 
 ### 1. Purpose

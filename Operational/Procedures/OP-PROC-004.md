@@ -1,3 +1,9 @@
+---
+title: Secure Media Disposal and Sanitization Procedure (OP-PROC-004)
+parent: Operational Procedures
+nav_order: 4
+---
+
 # Secure Media Disposal and Sanitization Procedure (OP-PROC-004)
 
 ### 1. Purpose

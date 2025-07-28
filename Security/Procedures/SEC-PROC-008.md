@@ -1,3 +1,9 @@
+---
+title: Vulnerability Management Procedure (SEC-PROC-008)
+parent: Security Procedures
+nav_order: 8
+---
+
 # Vulnerability Management Procedure (SEC-PROC-008)
 
 ### 1. Purpose

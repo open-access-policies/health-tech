@@ -1,3 +1,9 @@
+---
+title: Risk Assessment Procedure (SEC-PROC-004)
+parent: Security Procedures
+nav_order: 4
+---
+
 # Risk Assessment Procedure (SEC-PROC-004)
 
 ### 1. Purpose

@@ -1,3 +1,9 @@
+---
+title: Business Continuity Plan (BCP) ([RES-PROC-006])
+parent: Resilience Procedures
+nav_order: 6
+---
+
 # Business Continuity Plan (BCP) ([RES-PROC-006])
 
 ### 1. Purpose

@@ -1,3 +1,9 @@
+---
+title: Incident Response Policy (RES-POL-001)
+parent: Resilience Policies
+nav_order: 1
+---
+
 # Incident Response Policy (RES-POL-001)
 
 ### 1. Objective

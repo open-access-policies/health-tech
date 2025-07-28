@@ -1,3 +1,9 @@
+---
+title: System Hardening and Baselining Procedure (ENG-PROC-005)
+parent: Engineering Procedures
+nav_order: 5
+---
+
 # System Hardening and Baselining Procedure (ENG-PROC-005)
 
 ### 1. Purpose

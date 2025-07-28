@@ -1,3 +1,9 @@
+---
+title: Internal Audit Procedure (SEC-PROC-002)
+parent: Security Procedures
+nav_order: 2
+---
+
 # Internal Audit Procedure (SEC-PROC-002)
 
 ### 1. Purpose

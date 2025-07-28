@@ -1,3 +1,9 @@
+---
+title: Standard Change Management Procedure (ENG-PROC-003)
+parent: Engineering Procedures
+nav_order: 3
+---
+
 # Standard Change Management Procedure (ENG-PROC-003)
 
 ### 1. Purpose

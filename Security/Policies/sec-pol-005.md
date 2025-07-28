@@ -1,3 +1,9 @@
+---
+title: Vendor and Third-Party Risk Management Policy (SEC-POL-005)
+parent: Security Policies
+nav_order: 5
+---
+
 # Vendor and Third-Party Risk Management Policy (SEC-POL-005)
 
 ### 1. Objective

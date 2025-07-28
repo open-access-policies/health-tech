@@ -1,3 +1,9 @@
+---
+title: Bring Your Own Device (BYOD) Onboarding Procedure (AC-PROC-002)
+parent: Access Control Procedures
+nav_order: 2
+---
+
 # Bring Your Own Device (BYOD) Onboarding Procedure (AC-PROC-002)
 
 ### 1. Purpose

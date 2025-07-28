@@ -1,3 +1,9 @@
+---
+title: Physical Security Policy (SEC-POL-006)
+parent: Security Policies
+nav_order: 6
+---
+
 # Physical Security Policy (SEC-POL-006)
 
 ### 1. Objective

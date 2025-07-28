@@ -1,3 +1,9 @@
+---
+title: Vulnerability Management Exception Procedure (SEC-PROC-009)
+parent: Security Procedures
+nav_order: 9
+---
+
 # Vulnerability Management Exception Procedure (SEC-PROC-009)
 
 ### 1. Purpose

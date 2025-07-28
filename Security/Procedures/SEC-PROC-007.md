@@ -1,3 +1,9 @@
+---
+title: AI Tool Risk Assessment and Approval Procedure (SEC-PROC-007)
+parent: Security Procedures
+nav_order: 7
+---
+
 # AI Tool Risk Assessment and Approval Procedure (SEC-PROC-007)
 
 ### 1. Purpose

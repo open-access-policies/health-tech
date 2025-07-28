@@ -1,3 +1,9 @@
+---
+title: Data Classification and Handling Policy (SEC-POL-004)
+parent: Security Policies
+nav_order: 4
+---
+
 # Data Classification and Handling Policy (SEC-POL-004)
 
 ### 1. Objective
