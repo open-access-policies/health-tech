@@ -3,9 +3,6 @@ title: Incident Response Policy (RES-POL-001)
 parent: Resilience Policies
 nav_order: 1
 ---
-
-# Incident Response Policy (RES-POL-001)
-
 ### 1. Objective
 
 The objective of this policy is to establish a comprehensive incident response framework for **[Company Name]** to effectively detect, respond to, contain, and recover from information security incidents. This policy ensures that security incidents are handled in a coordinated, timely, and effective manner to minimize impact on business operations, protect electronic Protected Health Information (ePHI) and other sensitive data, maintain regulatory compliance with HIPAA, HITECH, and SOC 2 requirements, and preserve evidence for potential legal proceedings.

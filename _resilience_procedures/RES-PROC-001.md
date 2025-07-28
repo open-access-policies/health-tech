@@ -3,9 +3,6 @@ title: Incident Response Plan (IRP) ([RES-PROC-001])
 parent: Resilience Procedures
 nav_order: 1
 ---
-
-# Incident Response Plan (IRP) ([RES-PROC-001])
-
 ### 1. Purpose
 
 To provide detailed, actionable steps for responding to information security incidents to minimize impact and ensure a coordinated response.

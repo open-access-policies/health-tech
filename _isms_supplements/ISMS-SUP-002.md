@@ -3,9 +3,6 @@ title: ISMS High-Level RACI Chart (ISMS-SUP-002)
 parent: ISMS Supplements
 nav_order: 2
 ---
-### **ISMS High-Level RACI Chart** (ISMS-SUP-002)
-
-This chart defines the roles and responsibilities for the key security and compliance deliverables derived from the ISMS policy set. It is designed to provide clarity for a growing organization.
 
 **RACI Definitions:**
 

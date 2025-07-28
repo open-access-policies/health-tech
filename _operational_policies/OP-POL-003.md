@@ -3,9 +3,6 @@ title: Data Retention and Disposal Policy (OP-POL-003)
 parent: Operational Policies
 nav_order: 3
 ---
-
-# Data Retention and Disposal Policy (OP-POL-003)
-
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive requirements for the retention, archival, and secure disposal of **[Company Name]**'s information assets throughout their lifecycle. This policy ensures that information is retained for appropriate periods to meet business, legal, and regulatory requirements, particularly for electronic Protected Health Information (ePHI), while ensuring secure disposal when information is no longer needed, in compliance with HIPAA, HITECH, state privacy laws, and SOC 2 requirements.

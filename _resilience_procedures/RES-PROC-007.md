@@ -3,9 +3,6 @@ title: BCDR Testing and Exercise Procedure ([RES-PROC-007])
 parent: Resilience Procedures
 nav_order: 7
 ---
-
-# BCDR Testing and Exercise Procedure ([RES-PROC-007])
-
 ### 1. Purpose
 
 To detail the requirements for planning, executing, and documenting annual disaster recovery tests and business continuity exercises.

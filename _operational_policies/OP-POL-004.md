@@ -3,9 +3,6 @@ title: Human Resources Security Policy (OP-POL-004)
 parent: Operational Policies
 nav_order: 4
 ---
-
-# Human Resources Security Policy (OP-POL-004)
-
 ### 1. Objective
 
 The objective of this policy is to define the security requirements and procedures that govern the lifecycle of all **[Company Name]** workforce members. This policy ensures that individuals with access to sensitive company information, including electronic Protected Health Information (ePHI), are trustworthy, properly trained, and managed in a way that minimizes insider risk and upholds the company's commitment to security and compliance.

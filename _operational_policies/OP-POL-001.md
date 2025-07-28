@@ -2,12 +2,7 @@
 title: Encryption and Key Management Policy (OP-POL-001)
 parent: Operational Policies
 nav_order: 1
-hide_title: true # Add this line to hide page titles
-no_page_title: true # This removes the page title from the top of each page.
 ---
-
-# Encryption and Key Management Policy (OP-POL-001)
-
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive requirements for the implementation, management, and governance of cryptographic controls and encryption key management at **[Company Name]**. This policy ensures that sensitive information, particularly electronic Protected Health Information (ePHI), is protected through appropriate encryption technologies and that cryptographic keys are securely generated, distributed, stored, and disposed of in compliance with HIPAA, HITECH, and SOC 2 requirements.

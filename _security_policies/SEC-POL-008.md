@@ -3,9 +3,6 @@ title: Vulnerability Management Policy (SEC-POL-008)
 parent: Security Policies
 nav_order: 8
 ---
-
-# Vulnerability Management Policy (SEC-POL-008)
-
 ### 1. Objective
 
 The objective of this policy is to establish a systematic and continuous process for identifying, prioritizing, remediating, and verifying security vulnerabilities across all of **[Company Name]**'s information assets. This policy ensures that risks to the confidentiality, integrity, and availability of data, including electronic Protected Health Information (ePHI), are managed in a timely and effective manner.

@@ -8,8 +8,6 @@ baseurl: "/health-tech"
 hydejack:
   theme: theme-base-08
   sticky_sidebar: true 
-  no_page_title: true # This removes the page title from the top of each page.
-  hide_title: true # Updated setting for hiding page titles
   accent_color: "#bababa" # Solid gray color for sidebar
   invert_sidebar: false # Changed to false since we're using a light color
 
@@ -92,8 +90,6 @@ defaults:
       type: "engineering_policies"
     values:
       layout: "page"
-      hide_title: true # Add this line to hide page titles
-      no_page_title: true # This removes the page title from the top of each page.
   - scope:
       type: "engineering_procedures"
     values:

@@ -3,9 +3,6 @@ title: Schedule of Security Procedures (ISMS-SUP-001)
 parent: ISMS Supplements
 nav_order: 1
 ---
-### **Schedule of Security Procedures** (ISMS-SUP-001)
-
-This document outlines the required frequency for executing key security and compliance procedures based on the company's Information Security Management System (ISMS).
 
 #### **Quarterly Procedures**
 

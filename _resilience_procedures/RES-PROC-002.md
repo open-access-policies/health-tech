@@ -3,9 +3,6 @@ title: HIPAA Breach Risk Assessment Procedure ([RES-PROC-002])
 parent: Resilience Procedures
 nav_order: 2
 ---
-
-# HIPAA Breach Risk Assessment Procedure ([RES-PROC-002])
-
 ### 1. Purpose
 
 To guide the Privacy Officer and Incident Response Team through the formal risk assessment required to determine if a security incident qualifies as a notifiable breach under the HIPAA Breach Notification Rule.
