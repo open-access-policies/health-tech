@@ -10,6 +10,7 @@ hydejack:
   sticky_sidebar: true 
   no_page_title: true # This removes the page title from the top of each page.
   sidebar_bg_image: /assets/images/sidebar-bg2.png
+  accent_image: /assets/images/sidebar-bg2.png
   invert_sidebar: true # This inverts the sidebar colors to match the theme.
   # Change the color of links and other highlighted elements.
   accent_color: rgb(128, 0, 32) # This is a dark red color.
@@ -80,42 +81,72 @@ defaults:
       type: "engineering_policies"
     values:
       layout: "page"
+      accent_image: /assets/img/sidebar-bg2.png
+      accent_color: rgb(128, 0, 32) # This is a dark red color.
+      invert_sidebar: true # This inverts the sidebar colors to match the theme.
   - scope:
       type: "engineering_procedures"
     values:
       layout: "page"
+      accent_image: /assets/img/sidebar-bg2.png
+      accent_color: rgb(128, 0, 32) # This is a dark red color.
+      invert_sidebar: true # This inverts the sidebar colors to match the theme.
   - scope:
       type: "operational_policies"
     values:
       layout: "page"
+      accent_image: /assets/img/sidebar-bg2.png
+      accent_color: rgb(128, 0, 32) # This is a dark red color.
+      invert_sidebar: true # This inverts the sidebar colors to match the theme.
   - scope:
       type: "operational_procedures"
     values:
       layout: "page"
+      accent_image: /assets/img/sidebar-bg2.png
+      accent_color: rgb(128, 0, 32) # This is a dark red color.
+      invert_sidebar: true # This inverts the sidebar colors to match the theme.
   - scope:
       type: "access_control_policies"
     values:
       layout: "page"
+      accent_image: /assets/img/sidebar-bg2.png
+      accent_color: rgb(128, 0, 32) # This is a dark red color.
+      invert_sidebar: true # This inverts the sidebar colors to match the theme.
   - scope:
       type: "access_control_procedures"
     values:
       layout: "page"
+      accent_image: /assets/img/sidebar-bg2.png
+      accent_color: rgb(128, 0, 32) # This is a dark red color.
+      invert_sidebar: true # This inverts the sidebar colors to match the theme.
   - scope:
       type: "resilience_policies"
     values:
       layout: "page"
+      accent_image: /assets/img/sidebar-bg2.png
+      accent_color: rgb(128, 0, 32) # This is a dark red color.
+      invert_sidebar: true # This inverts the sidebar colors to match the theme.
   - scope:
       type: "resilience_procedures"
     values:
       layout: "page"
+      accent_image: /assets/img/sidebar-bg2.png
+      accent_color: rgb(128, 0, 32) # This is a dark red color.
+      invert_sidebar: true # This inverts the sidebar colors to match the theme.
   - scope:
       type: "security_policies"
     values:
       layout: "page"
+      accent_image: /assets/img/sidebar-bg2.png
+      accent_color: rgb(128, 0, 32) # This is a dark red color.
+      invert_sidebar: true # This inverts the sidebar colors to match the theme.
   - scope:
       type: "security_procedures"
     values:
       layout: "page"
+      accent_image: /assets/img/sidebar-bg2.png
+      accent_color: rgb(128, 0, 32) # This is a dark red color.
+      invert_sidebar: true # This inverts the sidebar colors to match the theme.
 
 # --- Build settings ---
 remote_theme: "hydecorp/hydejack@v9.2.1"
