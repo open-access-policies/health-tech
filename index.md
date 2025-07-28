@@ -11,7 +11,9 @@ These documents are provided freely as a resource to the community. While they a
 
 ---
 
-![Information Security Management System Logo](assets/images/logo2.png)
+<p align="center">
+  <img src="assets/images/logo2.png" alt="Information Security Management System Logo" width="200" height="200" />
+</p>
 
 ## Table of Contents
 
@@ -55,6 +57,7 @@ These documents are provided freely as a resource to the community. While they a
 * [Mobile Device Policy (BYOD) (OP-POL-002)](./operational_policies/OP-POL-002)
 * [Data Retention and Disposal Policy (OP-POL-003)](./operational_policies/OP-POL-003)
 * [Human Resources Security Policy (OP-POL-004)](./operational_policies/OP-POL-004)
+* [Acceptable Software and Browser Extension Policy (OP-POL-005)](./operational_policies/OP-POL-005)
 
 #### Procedures
 
@@ -66,6 +69,7 @@ These documents are provided freely as a resource to the community. While they a
 * [Workforce Screening and Background Check Procedure (OP-PROC-006)](./operational_procedures/OP-PROC-006)
 * [Employee Onboarding and Offboarding Security Procedure (OP-PROC-007)](./operational_procedures/OP-PROC-007)
 * [Security Policy Sanction Procedure (OP-PROC-008)](./operational_procedures/OP-PROC-008)
+* [Software and Extension Approval Procedure (OP-PROC-009)](./operational_procedures/OP-PROC-009)
 
 ### Resilience
 
@@ -76,13 +80,13 @@ These documents are provided freely as a resource to the community. While they a
 
 #### Procedures
 
-* [Incident Response Plan (IRP) ([RES-PROC-001])](./resilience_procedures/RES-PROC-001)
-* [HIPAA Breach Risk Assessment Procedure ([RES-PROC-002])](./resilience_procedures/RES-PROC-002)
-* [Post-Incident Review Procedure ([RES-PROC-003])](./resilience_procedures/RES-PROC-003)
-* [Business Impact Analysis (BIA) Procedure ([RES-PROC-004])](./resilience_procedures/RES-PROC-004)
-* [IT Disaster Recovery Plan (DRP) ([RES-PROC-005])](./resilience_procedures/RES-PROC-005)
-* [Business Continuity Plan (BCP) ([RES-PROC-006])](./resilience_procedures/RES-PROC-006)
-* [BCDR Testing and Exercise Procedure ([RES-PROC-007])](./resilience_procedures/RES-PROC-007)
+* [Incident Response Plan (IRP) (RES-PROC-001)](./resilience_procedures/RES-PROC-001)
+* [HIPAA Breach Risk Assessment Procedure (RES-PROC-002)](./resilience_procedures/RES-PROC-002)
+* [Post-Incident Review Procedure (RES-PROC-003)](./resilience_procedures/RES-PROC-003)
+* [Business Impact Analysis (BIA) Procedure (RES-PROC-004)](./resilience_procedures/RES-PROC-004)
+* [IT Disaster Recovery Plan (DRP) (RES-PROC-005)](./resilience_procedures/RES-PROC-005)
+* [Business Continuity Plan (BCP) (RES-PROC-006)](./resilience_procedures/RES-PROC-006)
+* [BCDR Testing and Exercise Procedure (RES-PROC-007)](./resilience_procedures/RES-PROC-007)
 
 ### Security
 

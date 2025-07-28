@@ -1,0 +1,84 @@
+@import "hydejack";
+
+// Override sidebar to remove image and use solid accent color
+.sidebar,
+.sidebar__header {
+  background-image: none !important;
+  background-color: #bababa !important;
+}
+
+$font-serif: "Merriweather", serif;
+$font-sans : "Open Sans", sans-serif;
+$base-color: #FFF;
+$accent    : #bababa;
+
+body {
+  font-family: $font-serif;
+  color: $base-color;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-sans;
+  letter-spacing: 0.5px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: darken($accent, 20%);
+}
+
+a {
+  color: $accent;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  &:hover { 
+    color: darken($accent, 30%);
+    text-decoration: underline;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  th, td {
+    border: 1px solid lighten($base-color, 60%);
+    padding: 0.5rem 1rem;
+  }
+  tr:nth-child(even) {
+    background: lighten($accent, 50%);
+  }
+}
+
+pre, code {
+  font-family: Menlo, monospace;
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 0.5rem;
+  overflow-x: auto;
+}
+
+.callout {
+  border-left: 4px solid $accent;
+  background: lighten($accent, 60%);
+  padding: 1rem;
+  margin: 2rem 0;
+  &.warning { border-color: #e08e0b; background: #fff4e5; }
+  &.info    { border-color: #31708f; background: #d9edf7; }
+}
+
+@media print {
+  body {
+    max-width: 100%;
+    padding: 0;
+  }
+  .sidebar, .sidebar__header, nav, .footer {
+    display: none !important;
+  }
+  a::after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+  }
+}
