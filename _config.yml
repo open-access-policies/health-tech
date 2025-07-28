@@ -4,8 +4,16 @@ description: "ISMS Template for Health Tech Companies"
 # url: "https://open-access-policies.github.io"
 baseurl: "/health-tech"
 
-# --- Theme Skin ---
-minimal_mistakes_skin: "contrast"
+# --- Hydejack Specific Settings ---
+hydejack:
+  theme: theme-base-08
+  sticky_sidebar: true 
+  no_page_title: true # This removes the page title from the top of each page.
+  accent_image: /assets/images/sidebar-bg.jpg
+  invert_sidebar: true # This inverts the sidebar colors to match the theme.
+
+# --- Favicon Settings ---
+favicon: /assets/images/logo.png
 
 # --- Search ---
 search: true
@@ -108,7 +116,7 @@ defaults:
       layout: "page"
 
 # --- Build settings ---
-remote_theme: "hydecorp/hydejack@v9"
+remote_theme: "hydecorp/hydejack@v9.1"
 plugins:
   - jekyll-seo-tag
   - jekyll-feed

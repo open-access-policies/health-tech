@@ -5,7 +5,9 @@ title: Information Security Management System (ISMS)
 permalink: /
 ---
 
-This repository contains a templated set of ISMS policies and procedures that are designed for a health technology company. The aim is to create policies that conform to HIPAA/HITECH and SOC2.
+Welcome to our comprehensive collection of open-source information security policies, meticulously crafted for health tech companies. In today's digital landscape, robust security and compliance are not just best practices—they are essential for protecting sensitive patient data and maintaining trust. This set of policies and procedures provides a strong foundation for building and maturing your Information Security Management System (ISMS). Whether you're a startup laying the groundwork for your security program or an established organization looking to enhance your existing framework, these templates are designed to be adaptable to your specific needs.
+
+These documents are provided freely as a resource to the community. While they are designed to align with common security frameworks and regulations like HIPAA, they are intended as a starting point. We strongly recommend that you customize these templates in consultation with your legal and compliance teams to ensure they fully address your organization's unique risks, operational environment, and legal obligations. Proper implementation and adherence to these policies will be a critical step in safeguarding your information assets.
 
 ---
 
