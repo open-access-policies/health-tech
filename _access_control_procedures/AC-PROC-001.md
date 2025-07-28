@@ -27,6 +27,8 @@ Provide the detailed, step-by-step instructions for carrying out the procedure. 
 | **4**    | Manager & Human Resources             | In consultation with HR, a sanction is determined consistent with the Sanction Policy.               |
 | **5**    | Security Officer/IT Department        | The outcome is formally documented.                                                                  |
 
+Note: If the security team determines that the violation is critical, an incident post-mortem may be initiated to analyze the incident in detail.
+
 ### 5. Standards Compliance
 
 This section maps the procedure steps to specific controls from relevant information security standards.

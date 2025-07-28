@@ -23,8 +23,9 @@ This procedure describes the quarterly and annual process for reviewing user acc
 | **2**    | IT/Security Team             | Sends these reports to the designated system owners or employee managers.                                            |
 | **3**    | System Owner/Manager         | Reviews each user's access and attests whether it is still appropriate and required for their job function.          |
 | **4**    | System Owner/Manager         | Returns the signed-off review form to the IT/Security team.                                                          |
-| **5**    | IT Team                      | Revokes any access that is no longer necessary.                                                                      |
-| **6**    | IT/Security Team             | Stores all completed reviews as an audit record.                                                                     |
+| **5**    | System Owner/Manager         | Returns the signed-off review form to the IT/Security team.                                                          |
+| **6**    | Security Team                | Reviews administrative access rights and attests to their necessity.                                                 |
+| **7**    | IT/Security Team             | Stores all completed reviews as an audit record.                                                                     |
 
 ### 5. Standards Compliance
 

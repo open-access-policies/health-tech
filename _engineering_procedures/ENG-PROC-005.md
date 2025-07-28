@@ -25,6 +25,8 @@ This procedure details the steps for system hardening. It begins with the provis
 | **4**    | Automated Compliance Tool    | A compliance scan is automatically run after provisioning to verify that the baseline was applied correctly and to establish the initial secure state.               |
 | **5**    | Security Team                | Periodically runs compliance scans to detect any configuration drift from the established baseline and alerts the system owner if deviations are found.            |
 
+Note: If the security team determines the configuration drift is critical, an incident post-mortem may be initiated to analyze the incident in detail.
+
 ### 5. Standards Compliance
 
 | **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**     |

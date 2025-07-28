@@ -34,6 +34,7 @@ Mobile devices shall be classified based on their access to company information 
 
 **Level 3 - Restricted Access:** Devices with access to ePHI or other Restricted information
 - Maximum security configuration required
+- Must be company-owned devices only
 - Advanced MDM with containerization/app wrapping
 - Hardware-based encryption required
 - Continuous compliance monitoring
@@ -73,7 +74,7 @@ All mobile devices accessing company information shall be enrolled in the **[Com
 The following security policies shall be enforced through MDM:
 
 **Device Configuration:**
-- Minimum passcode/password complexity requirements
+- Minimum passcode/password complexity requirements (must use 6-digits or more for passcodes, gesture-based authentication is not acceptable)
 - Automatic screen lock after **[Duration, e.g., 5 minutes]** of inactivity
 - Maximum failed unlock attempts before device lock/wipe
 - Automatic device encryption enforcement

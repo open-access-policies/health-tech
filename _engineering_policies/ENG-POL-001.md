@@ -134,6 +134,7 @@ All code shall undergo thorough review processes to identify and remediate secur
 - Code reviews shall use standardized checklists covering common security vulnerabilities
 - Review comments and resolutions shall be documented and tracked
 - Critical or high-risk code changes shall require review by senior developers or security team
+- Code review tools powered by AI or static analysis shall be used to assist in identifying potential security issues
 
 **Security Review Criteria:**
 - Authentication and authorization implementation

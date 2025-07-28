@@ -93,7 +93,7 @@ A comprehensive key management system shall be implemented to ensure the secure 
 - Master keys shall be stored in HSMs or equivalent tamper-resistant hardware
 - Key storage systems shall be hardened and subject to strict access controls
 - Encryption keys shall themselves be encrypted at rest using a separate key encryption key (KEK).
-- Cloud-based key management services (e.g., AWS KMS, Azure Key Vault) must be configured in accordance with the **[Company Name]** `Cloud Security Policy` and `Third-Party Risk Management Policy`.
+- Cloud-based key management services (e.g., AWS KMS, Azure Key Vault) must be configured in accordance with the **[Company Name]** `Infrastructure Security Policy (ENG-POL-003)` and `Vendor and Third-Party Risk Management Policy (SEC-POL-005)`.
 
 **3.2.5 Key Usage and Access Controls**
 
@@ -123,7 +123,7 @@ Encryption keys shall be rotated at or before the following minimum frequencies.
 - Cryptographic keys shall be securely destroyed as soon as they are no longer required for business or legal purposes.
 - Key destruction shall use cryptographically secure deletion methods (e.g., cryptographic erasure, overwriting with random data multiple times).
 - HSMs shall perform secure key zeroization procedures.
-- Physical destruction of media that stored keys shall be performed in accordance with the `Media Sanitization and Disposal Policy` and be verified and documented.
+- Physical destruction of media that stored keys shall be performed in accordance with the `Data Retention and Disposal Policy (OP-POL-003)` and be verified and documented.
 - All key destruction activities shall be logged and auditable.
 
 **3.3 Digital Certificates and Public Key Infrastructure (PKI)**
@@ -146,7 +146,7 @@ Encryption keys shall be rotated at or before the following minimum frequencies.
 
 **3.4 Cloud Encryption and Key Management**
 
-All use of cloud services must adhere to the following cryptographic requirements, as detailed in the `Cloud Security Policy`.
+All use of cloud services must adhere to the following cryptographic requirements, as detailed in the `Infrastructure Security Policy (ENG-POL-003)`.
 
 **3.4.1 Cloud Encryption Requirements**
 
@@ -224,13 +224,13 @@ This policy is designed to comply with and support the following industry standa
 |**System Administrators**|Configure and maintain encryption systems, perform key rotation procedures, and ensure proper encryption deployment.|
 |**Database Administrators**|Implement database encryption, manage database encryption keys, and ensure encrypted backup procedures.|
 |**Cloud Engineers**|Configure cloud encryption services, manage cloud-based key management, and ensure proper cloud cryptographic controls.|
-|**Application Developers**|Implement application-level encryption using approved cryptographic libraries, protect secrets in code, and follow secure coding practices as defined in the `Secure Development Lifecycle Policy`.|
+|**Application Developers**|Implement application-level encryption using approved cryptographic libraries, protect secrets in code, and follow secure coding practices as defined in the `Secure Software Development Policy (ENG-POL-001)`.|
 |**Privacy Officer**|Ensure encryption requirements meet privacy obligations, oversee ePHI encryption protections, and coordinate with the Security Officer on data protection strategies.|
 |**All Workforce Members**|Use encryption tools as required, protect credentials used for encryption systems, and immediately report suspected encryption failures or key compromises to the IT Security Team.|
 
 ### 7. Enforcement
 
-Failure to comply with this policy may result in disciplinary action, up to and including termination of employment or contract, in accordance with **[Company Name]**'s `Human Resources Security Policy`. Violations may also carry civil and criminal penalties.
+Failure to comply with this policy may result in disciplinary action, up to and including termination of employment or contract, in accordance with **[Company Name]**'s `Human Resources Security Policy (OP-POL-004)`. Violations may also carry civil and criminal penalties.
 
 ### 8. Exceptions
 

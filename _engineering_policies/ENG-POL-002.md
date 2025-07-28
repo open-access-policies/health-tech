@@ -29,7 +29,7 @@ All non-emergency changes must follow this standard process:
     
 - **Testing:** All changes must pass a full suite of automated tests. Evidence of successful test runs (e.g., a link to the CI/CD build results) must be included in the pull request. Additionally, the Quality Assurance (QA) team must conduct manual testing where applicable and provide formal sign-off within the pull request, confirming the change meets requirements and does not introduce regressions.
     
-- **Deployment Approval:** Final approval to merge the change into the production release branch must be granted by authorized personnel (e.g., Engineering Lead or Manager) within the GitHub pull request. This approval signifies that the approver has verified that all required steps, including peer review, security review, and QA sign-off, have been successfully completed and documented.
+- **Deployment Approval:** Final approval to merge the change into the production release branch must be granted by authorized personnel (e.g., Engineering Lead or Manager) within the GitHub pull request. This approval signifies that the approver has verified that all required steps, including peer review, security review, and QA sign-off, have been successfully completed and documented. All approved production release branches must be tagged to ensure traceability and that the exact code deployed to production can be identified.
     
 
 **3.2 Emergency Changes**
@@ -63,6 +63,8 @@ Data-only changes, such as manual database updates that are not part of a standa
 - **Traceability:** Every pull request must be linked to its corresponding issue tracking ticket. The pull request description must summarize the change, the testing performed, and the outcome of all required reviews. Approvals must be captured via the native review and approval features within GitHub.
     
 - **Technical Enforcement:** The `main` and any `production` or `release` branches in all repositories within the scope of this policy must be technically protected to prevent direct commits. All changes must be enforced through the pull request workflow.
+
+- **Pull Request Template:** All pull requests must use a standardized template that includes sections for the change description, testing performed, security checklist, and links to related tickets. This template must be enforced via GitHub repository settings.
     
 
 **3.5 Change Notifications**
