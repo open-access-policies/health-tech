@@ -1,7 +1,7 @@
 # --- Site Settings ---
 title: "ISMS Policies & Procedures"
-description: "Official Information Security Management System Documentation"
-url: "https://open-access-policies.github.io"
+description: "ISMS Template for Health Tech Companies"
+# url: "https://open-access-policies.github.io"
 baseurl: "/health-tech"
 
 # --- Theme Skin ---
@@ -129,4 +129,19 @@ defaults:
 # --- Build settings ---
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
   - jekyll-include-cache
+
+author:
+  name   : "Sean Todd"
+  avatar : "/assets/images/headshot.jpg"
+  bio    : "A helpful CISO looking for his next challenge."
+  links  :
+    - label: "GitHub"
+      url: "https://github.com/descentintomael"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/seanmtodd/"
