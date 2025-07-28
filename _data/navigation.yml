@@ -1,61 +1,50 @@
-# _data/navigation.yml
-#
-# This file defines the navigation structure for the sidebars in the Minimal Mistakes theme.
-# Each top-level key (e.g., "engineering") represents a unique sidebar.
-# The `collection` key automatically pulls in all documents from a specified collection
-# and sorts them by the 'order' value in their front matter.
-
-# -- Engineering Sidebar --
-engineering:
-  - title: "Engineering Policies"
+# -- _engineering Sidebar --
+_engineering:
+  - title: "_engineering Policies"
     children:
-      - collection: engineering_policies
+      - collection: _engineering_policies
         sort_by: order
-  - title: "Engineering Procedures"
+  - title: "_engineering Procedures"
     children:
-      - collection: engineering_procedures
+      - collection: _engineering_procedures
         sort_by: order
-
-# -- Operational Sidebar --
-operational:
-  - title: "Operational Policies"
+# -- _operational Sidebar --
+_operational:
+  - title: "_operational Policies"
     children:
-      - collection: operational_policies
+      - collection: _operational_policies
         sort_by: order
-  - title: "Operational Procedures"
+  - title: "_operational Procedures"
     children:
-      - collection: operational_procedures
+      - collection: _operational_procedures
         sort_by: order
-
-# -- Access Control Sidebar --
-access_control:
-  - title: "Access Control Policies"
+# -- _access_control Sidebar --
+_access_control:
+  - title: "_access_control Policies"
     children:
-      - collection: access_control_policies
+      - collection: _access_control_policies
         sort_by: order
-  - title: "Access Control Procedures"
+  - title: "_access_control Procedures"
     children:
-      - collection: access_control_procedures
+      - collection: _access_control_procedures
         sort_by: order
-
-# -- Resilience Sidebar --
-resilience:
-  - title: "Resilience Policies"
+# -- _resilience Sidebar --
+_resilience:
+  - title: "_resilience Policies"
     children:
-      - collection: resilience_policies
+      - collection: _resilience_policies
         sort_by: order
-  - title: "Resilience Procedures"
+  - title: "_resilience Procedures"
     children:
-      - collection: resilience_procedures
+      - collection: _resilience_procedures
         sort_by: order
-
-# -- Security Sidebar --
-security:
-  - title: "Security Policies"
+# -- _security Sidebar --
+_security:
+  - title: "_security Policies"
     children:
-      - collection: security_policies
+      - collection: _security_policies
         sort_by: order
-  - title: "Security Procedures"
+  - title: "_security Procedures"
     children:
-      - collection: security_procedures
+      - collection: _security_procedures
         sort_by: order

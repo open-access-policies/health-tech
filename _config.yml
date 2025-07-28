@@ -1,143 +1,132 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole site, values
-# which you are expected to set up once and rarely edit after that.
-
 # --- Site Settings ---
-# These are used to personalize your new site.
-title: "ISMS Policies and Procedures (Health Tech)"
-description: "ISMS Policies and Procedures designed for a generic health tech company."
-# IMPORTANT: Replace the following two lines with your site's details.
-# url: "https://your-username.github.io" # e.g., "https://mmistakes.github.io"
-# baseurl: "/your-repo-name" # e.g., "/minimal-mistakes"
+title: "ISMS Policies & Procedures"
+description: "Official Information Security Management System Documentation"
+url: "https://open-access-policies.github.io"
+baseurl: "/health-tech"
 
 # --- Theme Skin ---
-# For a clean look, "air", "default", or "contrast" are great choices.
 minimal_mistakes_skin: "air"
 
 # --- Search ---
-# Enable the search feature.
 search: true
 
 # --- Collections ---
-# This is the most important part for your policies. We are telling Jekyll to
-# treat each policy/procedure folder as a special group of documents.
-# The folder names MUST start with an underscore (e.g., _engineering_policies).
 collections:
-  engineering_policies:
+  _engineering_policies:
     output: true
     permalink: /:collection/:path/
-  engineering_procedures:
+  _engineering_procedures:
     output: true
     permalink: /:collection/:path/
-  operational_policies:
+  _operational_policies:
     output: true
     permalink: /:collection/:path/
-  operational_procedures:
+  _operational_procedures:
     output: true
     permalink: /:collection/:path/
-  access_control_policies:
+  _access_control_policies:
     output: true
     permalink: /:collection/:path/
-  access_control_procedures:
+  _access_control_procedures:
     output: true
     permalink: /:collection/:path/
-  resilience_policies:
+  _resilience_policies:
     output: true
     permalink: /:collection/:path/
-  resilience_procedures:
+  _resilience_procedures:
     output: true
     permalink: /:collection/:path/
-  security_policies:
+  _security_policies:
     output: true
     permalink: /:collection/:path/
-  security_procedures:
+  _security_procedures:
     output: true
     permalink: /:collection/:path/
 
 # --- Defaults ---
-# This sets default front matter for all documents in a collection.
-# Here, we are telling every policy to use the 'sidebar' layout and connecting
-# it to the correct navigation structure from _data/navigation.yml.
 defaults:
-  # Engineering
+  # _engineering Policies
   - scope:
       path: ""
-      type: "engineering_policies"
+      type: "_engineering_policies"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "engineering"
+        nav: "_engineering"
+  # _engineering Procedures
   - scope:
       path: ""
-      type: "engineering_procedures"
+      type: "_engineering_procedures"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "engineering"
-  # Operational
+        nav: "_engineering"
+  # _operational Policies
   - scope:
       path: ""
-      type: "operational_policies"
+      type: "_operational_policies"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "operational"
+        nav: "_operational"
+  # _operational Procedures
   - scope:
       path: ""
-      type: "operational_procedures"
+      type: "_operational_procedures"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "operational"
-  # Access Control
+        nav: "_operational"
+  # _access_control Policies
   - scope:
       path: ""
-      type: "access_control_policies"
+      type: "_access_control_policies"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "access_control"
+        nav: "_access_control"
+  # _access_control Procedures
   - scope:
       path: ""
-      type: "access_control_procedures"
+      type: "_access_control_procedures"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "access_control"
-  # Resilience
+        nav: "_access_control"
+  # _resilience Policies
   - scope:
       path: ""
-      type: "resilience_policies"
+      type: "_resilience_policies"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "resilience"
+        nav: "_resilience"
+  # _resilience Procedures
   - scope:
       path: ""
-      type: "resilience_procedures"
+      type: "_resilience_procedures"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "resilience"
-  # Security
+        nav: "_resilience"
+  # _security Policies
   - scope:
       path: ""
-      type: "security_policies"
+      type: "_security_policies"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "security"
+        nav: "_security"
+  # _security Procedures
   - scope:
       path: ""
-      type: "security_procedures"
+      type: "_security_procedures"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "security"
+        nav: "_security"
 
 # --- Build settings ---
-# This specifies the theme and necessary plugins.
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
