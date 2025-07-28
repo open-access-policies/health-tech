@@ -4,3 +4,5 @@ venv/
 *.pdf
 *.tex
 scratch/
+Gemfile.lock
+Gemfile

@@ -10,6 +10,39 @@ minimal_mistakes_skin: "contrast"
 # --- Search ---
 search: true
 
+# --- Collections ---
+collections:
+  engineering_policies:
+    output: true
+    permalink: /:collection/:path/
+  engineering_procedures:
+    output: true
+    permalink: /:collection/:path/
+  operational_policies:
+    output: true
+    permalink: /:collection/:path/
+  operational_procedures:
+    output: true
+    permalink: /:collection/:path/
+  access_control_policies:
+    output: true
+    permalink: /:collection/:path/
+  access_control_procedures:
+    output: true
+    permalink: /:collection/:path/
+  resilience_policies:
+    output: true
+    permalink: /:collection/:path/
+  resilience_procedures:
+    output: true
+    permalink: /:collection/:path/
+  security_policies:
+    output: true
+    permalink: /:collection/:path/
+  security_procedures:
+    output: true
+    permalink: /:collection/:path/
+
 # --- Navigation ---
 # This section defines the links that will appear in the sidebar.
 # This replaces the old `_data/navigation.yml` file.
@@ -29,16 +62,50 @@ sidebar_links:
 
 
 # --- Defaults ---
-# This sets default front matter values for all pages and posts.
-# For Hydejack, 'page' or 'post' are the most common layouts.
+# This is the critical fix. We are telling Jekyll to use the 'page'
+# layout for every document inside every one of your collections.
+# This will override any incorrect 'layout' settings in the individual files.
 defaults:
   - scope:
-      path: ""
+      type: "engineering_policies"
     values:
-      layout: page
-      # This tells all pages to use the `sidebar_links` defined above for navigation.
-      sidebar:
-        children: "sidebar_links"
+      layout: "page"
+  - scope:
+      type: "engineering_procedures"
+    values:
+      layout: "page"
+  - scope:
+      type: "operational_policies"
+    values:
+      layout: "page"
+  - scope:
+      type: "operational_procedures"
+    values:
+      layout: "page"
+  - scope:
+      type: "access_control_policies"
+    values:
+      layout: "page"
+  - scope:
+      type: "access_control_procedures"
+    values:
+      layout: "page"
+  - scope:
+      type: "resilience_policies"
+    values:
+      layout: "page"
+  - scope:
+      type: "resilience_procedures"
+    values:
+      layout: "page"
+  - scope:
+      type: "security_policies"
+    values:
+      layout: "page"
+  - scope:
+      type: "security_procedures"
+    values:
+      layout: "page"
 
 # --- Build settings ---
 remote_theme: "mmistakes/minimal-mistakes"
