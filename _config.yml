@@ -11,6 +11,11 @@ hydejack:
   accent_color: "#bababa" # Solid gray color for sidebar
   invert_sidebar: false # Changed to false since we're using a light color
 
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
 # --- Favicon Settings ---
 favicon: /assets/images/logo.png
 
