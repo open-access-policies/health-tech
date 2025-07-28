@@ -1,4 +1,9 @@
-### **12-Month ISMS Implementation Roadmap**
+---
+title: 12-Month ISMS Implementation Roadmap (ISMS-SUP-003)
+parent: ISMS Supplements
+nav_order: 3
+---
+### **12-Month ISMS Implementation Roadmap** (ISMS-SUP-003)
 
 This roadmap provides a phased, 12-month plan for implementing the Information Security Management System (ISMS). It prioritizes foundational controls, builds repeatable processes, and establishes a cycle of testing and continuous improvement.
 
