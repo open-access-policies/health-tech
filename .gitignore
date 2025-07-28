@@ -2,3 +2,4 @@ venv/
 *.py
 *.sh
 *.pdf
+*.tex
