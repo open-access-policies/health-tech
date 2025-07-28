@@ -11,7 +11,9 @@ hydejack:
   no_page_title: true # This removes the page title from the top of each page.
   hide_title: true # Updated setting for hiding page titles
   sidebar_bg_image: /assets/images/sidebar-bg2.png
-  accent_image: /assets/images/sidebar-bg2.png
+  accent_image: 
+    path: /assets/images/sidebar-bg2.png
+    background: 'center/cover'  # Position/size of background image
   invert_sidebar: true # This inverts the sidebar colors to match the theme.
   # Change the color of links and other highlighted elements.
   accent_color: rgb(128, 0, 32) # This is a dark red color.
@@ -87,83 +89,63 @@ defaults:
   - scope:
       path: "" # This means all files
     values:
-      accent_image: /assets/images/sidebar-bg2.png # Fixed path from img to images
+      accent_image: 
+        path: /assets/images/sidebar-bg2.png
+        background: 'center/cover'  # Position/size of background image
   - scope:
       type: "engineering_policies"
     values:
       layout: "page"
-      accent_image: /assets/images/sidebar-bg2.png
-      invert_sidebar: true # This inverts the sidebar colors to match the theme.
       hide_title: true # Add this line to hide page titles
   - scope:
       type: "engineering_procedures"
     values:
       layout: "page"
-      accent_image: /assets/images/sidebar-bg2.png
-      invert_sidebar: true # This inverts the sidebar colors to match the theme.
       hide_title: true # Add this line to hide page titles
   - scope:
       type: "operational_policies"
     values:
       layout: "page"
-      accent_image: /assets/images/sidebar-bg2.png
-      invert_sidebar: true # This inverts the sidebar colors to match the theme.
       hide_title: true # Add this line to hide page titles
   - scope:
       type: "operational_procedures"
     values:
       layout: "page"
-      accent_image: /assets/images/sidebar-bg2.png
-      invert_sidebar: true # This inverts the sidebar colors to match the theme.
       hide_title: true # Add this line to hide page titles
   - scope:
       type: "access_control_policies"
     values:
       layout: "page"
-      accent_image: /assets/images/sidebar-bg2.png
-      invert_sidebar: true # This inverts the sidebar colors to match the theme.
       hide_title: true # Add this line to hide page titles
   - scope:
       type: "access_control_procedures"
     values:
       layout: "page"
-      accent_image: /assets/images/sidebar-bg2.png
-      invert_sidebar: true # This inverts the sidebar colors to match the theme.
       hide_title: true # Add this line to hide page titles
   - scope:
       type: "resilience_policies"
     values:
       layout: "page"
-      accent_image: /assets/images/sidebar-bg2.png
-      invert_sidebar: true # This inverts the sidebar colors to match the theme.
       hide_title: true # Add this line to hide page titles
   - scope:
       type: "resilience_procedures"
     values:
       layout: "page"
-      accent_image: /assets/images/sidebar-bg2.png
-      invert_sidebar: true # This inverts the sidebar colors to match the theme.
       hide_title: true # Add this line to hide page titles
   - scope:
       type: "security_policies"
     values:
       layout: "page"
-      accent_image: /assets/images/sidebar-bg2.png
-      invert_sidebar: true # This inverts the sidebar colors to match the theme.
       hide_title: true # Add this line to hide page titles
   - scope:
       type: "security_procedures"
     values:
       layout: "page"
-      accent_image: /assets/images/sidebar-bg2.png
-      invert_sidebar: true # This inverts the sidebar colors to match the theme.
       hide_title: true # Add this line to hide page titles
   - scope:
       type: "isms_supplements"
     values:
       layout: "page"
-      accent_image: /assets/images/sidebar-bg2.png
-      invert_sidebar: true # This inverts the sidebar colors to match the theme.
       hide_title: true # Add this line to hide page titles
 
 # --- Build settings ---
