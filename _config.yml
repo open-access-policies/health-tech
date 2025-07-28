@@ -9,7 +9,7 @@ hydejack:
   theme: theme-base-08
   sticky_sidebar: true 
   no_page_title: true # This removes the page title from the top of each page.
-  accent_image: /assets/images/sidebar-bg.jpg
+  accent_image: /assets/images/sidebar-bg.png
   invert_sidebar: true # This inverts the sidebar colors to match the theme.
 
 # --- Favicon Settings ---
@@ -116,7 +116,7 @@ defaults:
       layout: "page"
 
 # --- Build settings ---
-remote_theme: "hydecorp/hydejack@v9.1"
+remote_theme: "hydecorp/hydejack@v9.2.1"
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
@@ -132,3 +132,9 @@ author:
       url: "https://github.com/descentintomael"
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/seanmtodd/"
+  # --- Author Social Links ---
+  social:
+    github: descentintomael
+    email: mailto:sean@openaccesspolicies.org
+    linkedin: seanmtodd
+  #   rss: true # To enable the RSS feed icon
