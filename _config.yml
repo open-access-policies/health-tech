@@ -12,34 +12,34 @@ search: true
 
 # --- Collections ---
 collections:
-  _engineering_policies:
+  engineering_policies:
     output: true
     permalink: /:collection/:path/
-  _engineering_procedures:
+  engineering_procedures:
     output: true
     permalink: /:collection/:path/
-  _operational_policies:
+  operational_policies:
     output: true
     permalink: /:collection/:path/
-  _operational_procedures:
+  operational_procedures:
     output: true
     permalink: /:collection/:path/
-  _access_control_policies:
+  access_control_policies:
     output: true
     permalink: /:collection/:path/
-  _access_control_procedures:
+  access_control_procedures:
     output: true
     permalink: /:collection/:path/
-  _resilience_policies:
+  resilience_policies:
     output: true
     permalink: /:collection/:path/
-  _resilience_procedures:
+  resilience_procedures:
     output: true
     permalink: /:collection/:path/
-  _security_policies:
+  security_policies:
     output: true
     permalink: /:collection/:path/
-  _security_procedures:
+  security_procedures:
     output: true
     permalink: /:collection/:path/
 
@@ -48,83 +48,83 @@ defaults:
   # _engineering Policies
   - scope:
       path: ""
-      type: "_engineering_policies"
+      type: "engineering_policies"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "_engineering"
+        nav: "engineering"
   # _engineering Procedures
   - scope:
       path: ""
-      type: "_engineering_procedures"
+      type: "engineering_procedures"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "_engineering"
+        nav: "engineering"
   # _operational Policies
   - scope:
       path: ""
-      type: "_operational_policies"
+      type: "operational_policies"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "_operational"
+        nav: "operational"
   # _operational Procedures
   - scope:
       path: ""
-      type: "_operational_procedures"
+      type: "operational_procedures"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "_operational"
+        nav: "operational"
   # _access_control Policies
   - scope:
       path: ""
-      type: "_access_control_policies"
+      type: "access_control_policies"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "_access_control"
+        nav: "access_control"
   # _access_control Procedures
   - scope:
       path: ""
-      type: "_access_control_procedures"
+      type: "access_control_procedures"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "_access_control"
+        nav: "access_control"
   # _resilience Policies
   - scope:
       path: ""
-      type: "_resilience_policies"
+      type: "resilience_policies"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "_resilience"
+        nav: "resilience"
   # _resilience Procedures
   - scope:
       path: ""
-      type: "_resilience_procedures"
+      type: "resilience_procedures"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "_resilience"
+        nav: "resilience"
   # _security Policies
   - scope:
       path: ""
-      type: "_security_policies"
+      type: "security_policies"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "_security"
+        nav: "security"
   # _security Procedures
   - scope:
       path: ""
-      type: "_security_procedures"
+      type: "security_procedures"
     values:
       layout: "sidebar"
       sidebar:
-        nav: "_security"
+        nav: "security"
 
 # --- Build settings ---
 remote_theme: "mmistakes/minimal-mistakes"
