@@ -2,6 +2,7 @@
 title: Encryption and Key Management Policy (OP-POL-001)
 parent: Operational Policies
 nav_order: 1
+layout: sidebar
 ---
 
 # Encryption and Key Management Policy (OP-POL-001)
