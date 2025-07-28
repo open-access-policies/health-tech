@@ -109,6 +109,6 @@ These documents are provided freely as a resource to the community. While they a
 
 ### ISMS Supplements
 
-* [Schedule of Security Procedures (ISMS-SUP-001)](./_isms_supplements/ISMS-SUP-001)
-* [ISMS High-Level RACI Chart (ISMS-SUP-002)](./_isms_supplements/ISMS-SUP-002)
-* [12-Month ISMS Implementation Roadmap (ISMS-SUP-003)](./_isms_supplements/ISMS-SUP-003)
+* [Schedule of Security Procedures (ISMS-SUP-001)](./isms_supplements/ISMS-SUP-001)
+* [ISMS High-Level RACI Chart (ISMS-SUP-002)](./isms_supplements/ISMS-SUP-002)
+* [12-Month ISMS Implementation Roadmap (ISMS-SUP-003)](./isms_supplements/ISMS-SUP-003)

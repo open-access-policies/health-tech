@@ -10,10 +10,9 @@ hydejack:
   sticky_sidebar: true 
   no_page_title: true # This removes the page title from the top of each page.
   hide_title: true # Updated setting for hiding page titles
-  sidebar_bg_image: /assets/images/sidebar-bg2.png
   accent_image: 
     path: /assets/images/sidebar-bg2.png
-    background: 'center/cover'  # Position/size of background image
+    background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"  # Position/size of background image
   invert_sidebar: true # This inverts the sidebar colors to match the theme.
   # Change the color of links and other highlighted elements.
   accent_color: rgb(128, 0, 32) # This is a dark red color.
@@ -89,64 +88,110 @@ defaults:
   - scope:
       path: "" # This means all files
     values:
+      hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
       accent_image: 
         path: /assets/images/sidebar-bg2.png
-        background: 'center/cover'  # Position/size of background image
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"  # Position/size of background image
   - scope:
       type: "engineering_policies"
     values:
       layout: "page"
       hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+      accent_image: 
+        path: /assets/images/sidebar-bg2.png
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"
   - scope:
       type: "engineering_procedures"
     values:
       layout: "page"
       hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+      accent_image: 
+        path: /assets/images/sidebar-bg2.png
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"
   - scope:
       type: "operational_policies"
     values:
       layout: "page"
       hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+      accent_image: 
+        path: /assets/images/sidebar-bg2.png
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"
   - scope:
       type: "operational_procedures"
     values:
       layout: "page"
       hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+      accent_image: 
+        path: /assets/images/sidebar-bg2.png
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"
   - scope:
       type: "access_control_policies"
     values:
       layout: "page"
       hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+      accent_image: 
+        path: /assets/images/sidebar-bg2.png
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"
   - scope:
       type: "access_control_procedures"
     values:
       layout: "page"
       hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+      accent_image: 
+        path: /assets/images/sidebar-bg2.png
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"
   - scope:
       type: "resilience_policies"
     values:
       layout: "page"
       hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+      accent_image: 
+        path: /assets/images/sidebar-bg2.png
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"
   - scope:
       type: "resilience_procedures"
     values:
       layout: "page"
       hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+      accent_image: 
+        path: /assets/images/sidebar-bg2.png
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"
   - scope:
       type: "security_policies"
     values:
       layout: "page"
       hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+      accent_image: 
+        path: /assets/images/sidebar-bg2.png
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"
   - scope:
       type: "security_procedures"
     values:
       layout: "page"
       hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+      accent_image: 
+        path: /assets/images/sidebar-bg2.png
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"
   - scope:
       type: "isms_supplements"
     values:
       layout: "page"
       hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+      accent_image: 
+        path: /assets/images/sidebar-bg2.png
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/sidebar-bg2.png') center/cover"
 
 # --- Build settings ---
 remote_theme: "hydecorp/hydejack@v9.2.1"
