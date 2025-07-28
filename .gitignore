@@ -3,3 +3,4 @@ venv/
 *.sh
 *.pdf
 *.tex
+scratch/
