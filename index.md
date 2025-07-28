@@ -1,7 +1,7 @@
 ---
 # index.md
 layout: page
-title: Information Security Management System (ISMS)
+title: Information Security Management System
 permalink: /
 ---
 
@@ -10,6 +10,8 @@ Welcome to our comprehensive collection of open-source information security poli
 These documents are provided freely as a resource to the community. While they are designed to align with common security frameworks and regulations like HIPAA, they are intended as a starting point. We strongly recommend that you customize these templates in consultation with your legal and compliance teams to ensure they fully address your organization's unique risks, operational environment, and legal obligations. Proper implementation and adherence to these policies will be a critical step in safeguarding your information assets.
 
 ---
+
+![Information Security Management System Logo](assets/images/logo2.png)
 
 ## Table of Contents
 
