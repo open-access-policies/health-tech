@@ -1,5 +1,6 @@
 # Minimal configuration for Just the Docs
-theme: Minimal
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
 
 # The title of your site
 title: ISMS Policies and Procedures (Health Tech)
@@ -12,3 +13,27 @@ search_enabled: true
 
 # Logo URL
 logo: "/assets/images/logo.png"
+
+# --- Collections ---
+# This is the most important part for your policies.
+# We are telling Jekyll to treat each policy/procedure folder as a special group of documents.
+# The folder names MUST start with an underscore (e.g., Engineering/Policies -> _engineering_policies).
+collections:
+  engineering_policies:
+    output: true
+    permalink: /:collection/:path/
+  engineering_procedures:
+    output: true
+    permalink: /:collection/:path/
+  operational_policies:
+    output: true
+    permalink: /:collection/:path/
+  operational_procedures:
+    output: true
+    permalink: /:collection/:path/
+  access_control_policies:
+    output: true
+    permalink: /:collection/:path/
+  access_control_procedures:
+    output: true
+    permalink: /:collection/:path/

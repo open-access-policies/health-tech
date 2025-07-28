@@ -1,0 +1,61 @@
+# _data/navigation.yml
+#
+# This file defines the navigation structure for the sidebars in the Minimal Mistakes theme.
+# Each top-level key (e.g., "engineering") represents a unique sidebar.
+# The `collection` key automatically pulls in all documents from a specified collection
+# and sorts them by the 'order' value in their front matter.
+
+# -- Engineering Sidebar --
+engineering:
+  - title: "Engineering Policies"
+    children:
+      - collection: engineering_policies
+        sort_by: order
+  - title: "Engineering Procedures"
+    children:
+      - collection: engineering_procedures
+        sort_by: order
+
+# -- Operational Sidebar --
+operational:
+  - title: "Operational Policies"
+    children:
+      - collection: operational_policies
+        sort_by: order
+  - title: "Operational Procedures"
+    children:
+      - collection: operational_procedures
+        sort_by: order
+
+# -- Access Control Sidebar --
+access_control:
+  - title: "Access Control Policies"
+    children:
+      - collection: access_control_policies
+        sort_by: order
+  - title: "Access Control Procedures"
+    children:
+      - collection: access_control_procedures
+        sort_by: order
+
+# -- Resilience Sidebar --
+resilience:
+  - title: "Resilience Policies"
+    children:
+      - collection: resilience_policies
+        sort_by: order
+  - title: "Resilience Procedures"
+    children:
+      - collection: resilience_procedures
+        sort_by: order
+
+# -- Security Sidebar --
+security:
+  - title: "Security Policies"
+    children:
+      - collection: security_policies
+        sort_by: order
+  - title: "Security Procedures"
+    children:
+      - collection: security_procedures
+        sort_by: order
