@@ -1,11 +1,9 @@
 ---
-# "layout: home" provides a clean, wide-format page for a landing page.
-layout: home
-# "permalink: /" ensures this file is always the root homepage.
+# index.md
+layout: page
+title: Information Security Management System (ISMS)
 permalink: /
 ---
-
-# Information Security Management System (ISMS)
 
 This repository contains a templated set of ISMS policies and procedures that are designed for a health technology company. The aim is to create policies that conform to HIPAA/HITECH and SOC2.
 

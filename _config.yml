@@ -10,121 +10,35 @@ minimal_mistakes_skin: "contrast"
 # --- Search ---
 search: true
 
-# --- Collections ---
-collections:
-  engineering_policies:
-    output: true
-    permalink: /:collection/:path/
-  engineering_procedures:
-    output: true
-    permalink: /:collection/:path/
-  operational_policies:
-    output: true
-    permalink: /:collection/:path/
-  operational_procedures:
-    output: true
-    permalink: /:collection/:path/
-  access_control_policies:
-    output: true
-    permalink: /:collection/:path/
-  access_control_procedures:
-    output: true
-    permalink: /:collection/:path/
-  resilience_policies:
-    output: true
-    permalink: /:collection/:path/
-  resilience_procedures:
-    output: true
-    permalink: /:collection/:path/
-  security_policies:
-    output: true
-    permalink: /:collection/:path/
-  security_procedures:
-    output: true
-    permalink: /:collection/:path/
+# --- Navigation ---
+# This section defines the links that will appear in the sidebar.
+# This replaces the old `_data/navigation.yml` file.
+sidebar_links:
+  - title: Home
+    url: /
+  - title: Access Control
+    url: /access_control_policies/AC-POL-001
+  - title: Engineering
+    url: /engineering_policies/ENG-POL-001
+  - title: Operational
+    url: /operational_policies/OP-POL-001
+  - title: Resilience
+    url: /resilience_policies/RES-POL-001
+  - title: Security
+    url: /security_policies/SEC-POL-001
+
 
 # --- Defaults ---
+# This sets default front matter values for all pages and posts.
+# For Hydejack, 'page' or 'post' are the most common layouts.
 defaults:
-  # _engineering Policies
   - scope:
       path: ""
-      type: "engineering_policies"
     values:
-      layout: "sidebar"
+      layout: page
+      # This tells all pages to use the `sidebar_links` defined above for navigation.
       sidebar:
-        nav: "engineering"
-  # _engineering Procedures
-  - scope:
-      path: ""
-      type: "engineering_procedures"
-    values:
-      layout: "sidebar"
-      sidebar:
-        nav: "engineering"
-  # _operational Policies
-  - scope:
-      path: ""
-      type: "operational_policies"
-    values:
-      layout: "sidebar"
-      sidebar:
-        nav: "operational"
-  # _operational Procedures
-  - scope:
-      path: ""
-      type: "operational_procedures"
-    values:
-      layout: "sidebar"
-      sidebar:
-        nav: "operational"
-  # _access_control Policies
-  - scope:
-      path: ""
-      type: "access_control_policies"
-    values:
-      layout: "sidebar"
-      sidebar:
-        nav: "access_control"
-  # _access_control Procedures
-  - scope:
-      path: ""
-      type: "access_control_procedures"
-    values:
-      layout: "sidebar"
-      sidebar:
-        nav: "access_control"
-  # _resilience Policies
-  - scope:
-      path: ""
-      type: "resilience_policies"
-    values:
-      layout: "sidebar"
-      sidebar:
-        nav: "resilience"
-  # _resilience Procedures
-  - scope:
-      path: ""
-      type: "resilience_procedures"
-    values:
-      layout: "sidebar"
-      sidebar:
-        nav: "resilience"
-  # _security Policies
-  - scope:
-      path: ""
-      type: "security_policies"
-    values:
-      layout: "sidebar"
-      sidebar:
-        nav: "security"
-  # _security Procedures
-  - scope:
-      path: ""
-      type: "security_procedures"
-    values:
-      layout: "sidebar"
-      sidebar:
-        nav: "security"
+        children: "sidebar_links"
 
 # --- Build settings ---
 remote_theme: "mmistakes/minimal-mistakes"
