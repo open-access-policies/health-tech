@@ -1,5 +1,4 @@
-# Risk Assessment Procedure
-(SEC-PROC-004)
+# Risk Assessment Procedure (SEC-PROC-004)
 
 ### 1. Purpose
 

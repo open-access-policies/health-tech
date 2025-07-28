@@ -1,5 +1,4 @@
-# Workforce Screening and Background Check Procedure
-(OP-PROC-006)
+# Workforce Screening and Background Check Procedure (OP-PROC-006)
 
 ### 1. Purpose
 

@@ -1,5 +1,4 @@
-# Incident Response Plan (IRP)
-([RES-PROC-001])
+# Incident Response Plan (IRP) ([RES-PROC-001])
 
 ### 1. Purpose
 

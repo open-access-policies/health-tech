@@ -1,5 +1,4 @@
-# Access Control Management Procedure
-(AC-PROC-004)
+# Access Control Management Procedure (AC-PROC-004)
 
 ### 1. Purpose
 

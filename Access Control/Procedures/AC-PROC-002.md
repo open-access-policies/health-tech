@@ -1,5 +1,4 @@
-# Bring Your Own Device (BYOD) Onboarding Procedure
-(AC-PROC-002)
+# Bring Your Own Device (BYOD) Onboarding Procedure (AC-PROC-002)
 
 ### 1. Purpose
 

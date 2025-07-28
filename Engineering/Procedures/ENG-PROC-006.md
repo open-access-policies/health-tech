@@ -1,5 +1,4 @@
-# Privileged Infrastructure Access Review Procedure
-(ENG-PROC-006)
+# Privileged Infrastructure Access Review Procedure (ENG-PROC-006)
 
 ### 1. Purpose
 

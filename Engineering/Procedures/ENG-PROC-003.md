@@ -1,5 +1,4 @@
-# Standard Change Management Procedure
-(ENG-PROC-003)
+# Standard Change Management Procedure (ENG-PROC-003)
 
 ### 1. Purpose
 

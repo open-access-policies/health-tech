@@ -1,5 +1,4 @@
-# Information Security Committee Charter Procedure
-(SEC-PROC-001)
+# Information Security Committee Charter Procedure (SEC-PROC-001)
 
 ### 1. Purpose
 

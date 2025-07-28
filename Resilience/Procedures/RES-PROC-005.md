@@ -1,5 +1,4 @@
-# IT Disaster Recovery Plan (DRP)
-([RES-PROC-005])
+# IT Disaster Recovery Plan (DRP) ([RES-PROC-005])
 
 ### 1. Purpose
 

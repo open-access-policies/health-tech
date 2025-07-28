@@ -1,5 +1,4 @@
-# Acceptable Use Policy Violation Investigation Procedure
-(AC-PROC-001)
+# Acceptable Use Policy Violation Investigation Procedure (AC-PROC-001)
 
 ### 1. Purpose
 

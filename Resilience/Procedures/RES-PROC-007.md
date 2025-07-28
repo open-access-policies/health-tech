@@ -1,5 +1,4 @@
-# BCDR Testing and Exercise Procedure
-([RES-PROC-007])
+# BCDR Testing and Exercise Procedure ([RES-PROC-007])
 
 ### 1. Purpose
 

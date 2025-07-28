@@ -1,5 +1,4 @@
-# Legal Hold Procedure
-(OP-PROC-005)
+# Legal Hold Procedure (OP-PROC-005)
 
 ### 1. Purpose
 

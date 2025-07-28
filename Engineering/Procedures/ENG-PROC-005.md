@@ -1,5 +1,4 @@
-# System Hardening and Baselining Procedure
-(ENG-PROC-005)
+# System Hardening and Baselining Procedure (ENG-PROC-005)
 
 ### 1. Purpose
 

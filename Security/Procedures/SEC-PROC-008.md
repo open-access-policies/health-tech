@@ -1,5 +1,4 @@
-# Vulnerability Management Procedure
-(SEC-PROC-008)
+# Vulnerability Management Procedure (SEC-PROC-008)
 
 ### 1. Purpose
 

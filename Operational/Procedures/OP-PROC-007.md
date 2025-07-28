@@ -1,5 +1,4 @@
-# Employee Onboarding and Offboarding Security Procedure
-(OP-PROC-007)
+# Employee Onboarding and Offboarding Security Procedure (OP-PROC-007)
 
 ### 1. Purpose
 

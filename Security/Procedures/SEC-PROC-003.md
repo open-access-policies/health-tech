@@ -1,5 +1,4 @@
-# Password Policy Exception Procedure
-(SEC-PROC-003)
+# Password Policy Exception Procedure (SEC-PROC-003)
 
 ### 1. Purpose
 

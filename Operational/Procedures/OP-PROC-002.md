@@ -1,5 +1,4 @@
-# Mobile Device Onboarding and Security Configuration Procedure
-(OP-PROC-002)
+# Mobile Device Onboarding and Security Configuration Procedure (OP-PROC-002)
 
 ### 1. Purpose
 

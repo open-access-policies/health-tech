@@ -1,5 +1,4 @@
-# Business Impact Analysis (BIA) Procedure
-([RES-PROC-004])
+# Business Impact Analysis (BIA) Procedure ([RES-PROC-004])
 
 ### 1. Purpose
 

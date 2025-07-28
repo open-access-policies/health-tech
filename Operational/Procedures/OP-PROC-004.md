@@ -1,5 +1,4 @@
-# Secure Media Disposal and Sanitization Procedure
-(OP-PROC-004)
+# Secure Media Disposal and Sanitization Procedure (OP-PROC-004)
 
 ### 1. Purpose
 

@@ -1,5 +1,4 @@
-# Application Security Testing Procedure
-(ENG-PROC-001)
+# Application Security Testing Procedure (ENG-PROC-001)
 
 ### 1. Purpose
 

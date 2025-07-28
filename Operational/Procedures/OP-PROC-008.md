@@ -1,5 +1,4 @@
-# Security Policy Sanction Procedure
-(OP-PROC-008)
+# Security Policy Sanction Procedure (OP-PROC-008)
 
 ### 1. Purpose
 

@@ -1,5 +1,4 @@
-# Internal Audit Procedure
-(SEC-PROC-002)
+# Internal Audit Procedure (SEC-PROC-002)
 
 ### 1. Purpose
 

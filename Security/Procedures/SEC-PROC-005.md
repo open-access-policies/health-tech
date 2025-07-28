@@ -1,5 +1,4 @@
-# Vendor Risk Assessment and Onboarding Procedure
-(SEC-PROC-005)
+# Vendor Risk Assessment and Onboarding Procedure (SEC-PROC-005)
 
 ### 1. Purpose
 

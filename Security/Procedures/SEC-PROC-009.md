@@ -1,5 +1,4 @@
-# Vulnerability Management Exception Procedure
-(SEC-PROC-009)
+# Vulnerability Management Exception Procedure (SEC-PROC-009)
 
 ### 1. Purpose
 

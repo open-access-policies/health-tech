@@ -1,5 +1,4 @@
-# HIPAA Breach Risk Assessment Procedure
-([RES-PROC-002])
+# HIPAA Breach Risk Assessment Procedure ([RES-PROC-002])
 
 ### 1. Purpose
 

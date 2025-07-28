@@ -1,5 +1,4 @@
-# Cryptographic Key Lifecycle Management Procedure
-(OP-PROC-001)
+# Cryptographic Key Lifecycle Management Procedure (OP-PROC-001)
 
 ### 1. Purpose
 

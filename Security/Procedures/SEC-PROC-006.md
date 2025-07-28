@@ -1,5 +1,4 @@
-# Facility Access Management Procedure
-(SEC-PROC-006)
+# Facility Access Management Procedure (SEC-PROC-006)
 
 ### 1. Purpose
 

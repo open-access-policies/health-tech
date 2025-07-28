@@ -1,5 +1,4 @@
-# Business Continuity Plan (BCP)
-([RES-PROC-006])
+# Business Continuity Plan (BCP) ([RES-PROC-006])
 
 ### 1. Purpose
 

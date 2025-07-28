@@ -1,5 +1,4 @@
-# User Access Review Procedure
-(AC-PROC-003)
+# User Access Review Procedure (AC-PROC-003)
 
 ### 1. Purpose
 

@@ -1,5 +1,4 @@
-# Lost or Stolen Mobile Device Response Procedure
-(OP-PROC-003)
+# Lost or Stolen Mobile Device Response Procedure (OP-PROC-003)
 
 ### 1. Purpose
 

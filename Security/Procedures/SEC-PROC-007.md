@@ -1,5 +1,4 @@
-# AI Tool Risk Assessment and Approval Procedure
-(SEC-PROC-007)
+# AI Tool Risk Assessment and Approval Procedure (SEC-PROC-007)
 
 ### 1. Purpose
 
