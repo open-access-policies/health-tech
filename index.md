@@ -5,16 +5,6 @@ title: Information Security Management System
 permalink: /
 ---
 
-Welcome to our comprehensive collection of open-source information security policies, meticulously crafted for health tech companies. In today's digital landscape, robust security and compliance are not just best practices—they are essential for protecting sensitive patient data and maintaining trust. This set of policies and procedures provides a strong foundation for building and maturing your Information Security Management System (ISMS). Whether you're a startup laying the groundwork for your security program or an established organization looking to enhance your existing framework, these templates are designed to be adaptable to your specific needs.
-
-These documents are provided freely as a resource to the community. While they are designed to align with common security frameworks and regulations like HIPAA, they are intended as a starting point. We strongly recommend that you customize these templates in consultation with your legal and compliance teams to ensure they fully address your organization's unique risks, operational environment, and legal obligations. Proper implementation and adherence to these policies will be a critical step in safeguarding your information assets.
-
----
-
-<p align="center">
-  <img src="assets/images/logo2.png" alt="Information Security Management System Logo" width="200" height="200" />
-</p>
-
 ## Table of Contents
 
 ### Access Control
@@ -118,3 +108,24 @@ These documents are provided freely as a resource to the community. While they a
 * [Schedule of Security Procedures (ISMS-SUP-001)](./isms_supplements/ISMS-SUP-001)
 * [ISMS High-Level RACI Chart (ISMS-SUP-002)](./isms_supplements/ISMS-SUP-002)
 * [12-Month ISMS Implementation Roadmap (ISMS-SUP-003)](./isms_supplements/ISMS-SUP-003)
+
+## About This Project
+
+Navigating the complex landscape of health tech compliance can be challenging. The goal of this project is to provide a clear, comprehensive, and adaptable set of security policies that align with industry best practices and key regulatory frameworks. These templates are designed to be clear enough for non-technical stakeholders to understand while being robust enough to satisfy auditors.
+
+## Getting Started
+
+Each policy category contains both high-level policies that establish requirements and detailed procedures that provide implementation guidance. Policies are numbered for easy reference and cross-linking.
+
+Start by reviewing the policies most relevant to your immediate needs, then work through the related procedures to understand implementation requirements.
+
+## Contributing
+
+Contributions are welcome and encouraged! If you have suggestions for improving these templates, please feel free to open an issue to discuss your ideas or submit a pull request.
+
+## Disclaimer of Liability
+
+These templates are provided on an "as-is" basis, without warranty of any kind, express or implied. The authors and contributors of this project are not lawyers or compliance consultants. The information provided here is for general informational purposes only and does not constitute legal or professional advice. By using these templates, you agree that you are solely responsible for ensuring your organization's compliance with all applicable laws, regulations, and standards. The authors and contributors of this repository assume no liability for any damages, losses, or legal issues that may arise from the use, misuse, or interpretation of these documents. **Always consult with a qualified professional for advice tailored to your specific situation.**
+---
+
+*This framework is maintained by [Open Access Policies](https://github.com/open-access-policies) and is available under an open-source license for use by video streaming platforms worldwide.*

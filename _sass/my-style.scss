@@ -1,30 +1,62 @@
 
-// Override sidebar to remove image and use solid accent color
-.sidebar,
-.sidebar__header {
-  background-image: none !important;
-  background-color: #bababa !important;
+// Override sidebar styling - new dark grey with transparency and blur
+
+
+// Ensure sidebar text is visible over the background
+.sidebar .sidebar-sticky {
+  background: rgba(0, 0, 0, 0.4) !important;
+  padding: 1rem !important;
+  border-radius: 8px !important;
+  margin: 1rem !important;
+  backdrop-filter: blur(4px) !important;
 }
 
-$font-serif: "Merriweather", serif;
-$font-sans : "Open Sans", sans-serif;
-$base-color: #111;
+$font-serif: "Latin Modern Roman", "Merriweather", serif;
+$font-sans : "Latin Modern Roman", "Open Sans", sans-serif;
+$base-color: #000;
 $accent    : #bababa;
 
 body {
-  font-family: $font-serif;
-  color: $base-color;
+  font-family: $font-serif !important;
+  color: $base-color !important;
   line-height: 1.6;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
 
-h1, h2, h3, h4 {
-  font-family: $font-sans;
+// Force all text content to be black (except sidebar)
+.content, .markdown-body, main, article, .post, .page {
+  color: #000 !important;
+  
+  p, div, span, li, td, th, blockquote {
+    color: #000 !important;
+  }
+}
+
+// Hydejack theme specific overrides
+.page, .post {
+  color: #000 !important;
+}
+
+.content {
+  color: #000 !important;
+}
+
+// Override any Hydejack text colors
+#_main, .content-wrapper, .page-content {
+  color: #000 !important;
+  
+  * {
+    color: inherit !important;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-serif !important;
   letter-spacing: 0.5px;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  color: darken($accent, 20%);
+  color: #000 !important;
 }
 
 a {

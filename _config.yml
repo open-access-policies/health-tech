@@ -10,6 +10,11 @@ hydejack:
   sticky_sidebar: true 
   accent_color: "#bababa" # Solid gray color for sidebar
   invert_sidebar: false # Changed to false since we're using a light color
+  theme_color: "#bababa"
+  
+# Additional CSS files
+additional_css:
+  - /assets/css/main.css
 
 # --- Favicon Settings ---
 favicon: /assets/images/logo.png
@@ -158,6 +163,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-include-cache
+
+# --- Sass configuration ---
+sass:
+  sass_dir: _sass
+  style: expanded
 
 author:
   name   : "Sean Todd"
