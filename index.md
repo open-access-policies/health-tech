@@ -1,7 +1,7 @@
 ---
 # index.md
 layout: page
-title: Information Security Management System
+title: "Health Tech Security Policies & Procedures"
 permalink: /
 ---
 
@@ -118,6 +118,12 @@ Navigating the complex landscape of health tech compliance can be challenging. T
 Each policy category contains both high-level policies that establish requirements and detailed procedures that provide implementation guidance. Policies are numbered for easy reference and cross-linking.
 
 Start by reviewing the policies most relevant to your immediate needs, then work through the related procedures to understand implementation requirements.
+
+## Download Complete Documentation
+
+For convenience, all policies and procedures are also available as a comprehensive PDF document:
+
+📄 **[Download Complete Streaming Platform Security Policies & Procedures (PDF)](./assets/files/streaming_compiled.pdf)**
 
 ## Contributing
 
