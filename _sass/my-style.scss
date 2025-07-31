@@ -1,6 +1,20 @@
 
 // Override sidebar styling - new dark grey with transparency and blur
 
+// Force sidebar to be visible - override any opacity settings
+.sidebar-sticky {
+  opacity: 1 !important;
+}
+
+// Also ensure the entire sidebar is visible
+.sidebar, .sidebar__header {
+  opacity: 1 !important;
+}
+
+// Make sure navigation is visible too
+.sidebar-nav {
+  opacity: 1 !important;
+}
 
 // Ensure sidebar text is visible over the background
 .sidebar, .sidebar * {
