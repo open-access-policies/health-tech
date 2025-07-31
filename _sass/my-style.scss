@@ -3,6 +3,24 @@
 
 
 // Ensure sidebar text is visible over the background
+.sidebar, .sidebar * {
+  color: white !important;
+  font-family: 'Latin Modern Roman', serif !important;
+}
+
+// Keep social icons working properly
+.sidebar-social, .sidebar-social * {
+  color: white !important;
+}
+
+// Exception for icon fonts in sidebar - this is critical!
+.sidebar [class^="icon-"], 
+.sidebar [class*=" icon-"],
+.sidebar-social [class^="icon-"], 
+.sidebar-social [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+}
+
 .sidebar .sidebar-sticky {
   background: rgba(0, 0, 0, 0.4) !important;
   padding: 1rem !important;
@@ -15,6 +33,21 @@ $font-serif: "Latin Modern Roman", "Merriweather", serif;
 $font-sans : "Latin Modern Roman", "Open Sans", sans-serif;
 $base-color: #000;
 $accent    : #bababa;
+
+// Global font override but preserve icon fonts
+* {
+  font-family: 'Latin Modern Roman', serif !important;
+}
+
+// Exception for icon fonts - must be more specific than the global override
+[class^="icon-"], 
+[class*=" icon-"],
+.icon-github,
+.icon-linkedin,
+.icon-email,
+.icon-rss {
+  font-family: 'icomoon' !important;
+}
 
 body {
   font-family: $font-serif !important;

@@ -126,6 +126,7 @@ Contributions are welcome and encouraged! If you have suggestions for improving 
 ## Disclaimer of Liability
 
 These templates are provided on an "as-is" basis, without warranty of any kind, express or implied. The authors and contributors of this project are not lawyers or compliance consultants. The information provided here is for general informational purposes only and does not constitute legal or professional advice. By using these templates, you agree that you are solely responsible for ensuring your organization's compliance with all applicable laws, regulations, and standards. The authors and contributors of this repository assume no liability for any damages, losses, or legal issues that may arise from the use, misuse, or interpretation of these documents. **Always consult with a qualified professional for advice tailored to your specific situation.**
+
 ---
 
 *This framework is maintained by [Open Access Policies](https://github.com/open-access-policies) and is available under an open-source license for use by video streaming platforms worldwide.*
