@@ -123,7 +123,7 @@ Start by reviewing the policies most relevant to your immediate needs, then work
 
 For convenience, all policies and procedures are also available as a comprehensive PDF document:
 
-📄 **[Download Complete Streaming Platform Security Policies & Procedures (PDF)](./assets/files/streaming_compiled.pdf)**
+📄 **[Download Complete Health Tech Security Policies & Procedures (PDF)]({{ site.baseurl }}/assets/files/health_tech_compiled.pdf)**
 
 ## Contributing
 
