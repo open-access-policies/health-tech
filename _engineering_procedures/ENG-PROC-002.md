@@ -22,7 +22,7 @@ This procedure describes the process for managing the security of third-party co
 | **1**    | Developer                    | Proposes the use of a new third-party component by creating an issue ticket and documenting the component's purpose and source.                                      |
 | **2**    | Developer / CI/CD Pipeline   | Uses automated Software Composition Analysis (SCA) tools to scan the component for known vulnerabilities (CVEs) and potential software license compliance issues.      |
 | **3**    | Development Team Lead & Security Team | Review the SCA scan results. They assess the severity of any identified vulnerabilities and the implications of the component's license.                     |
-| **4**    | Development Team             | If significant vulnerabilities are found, the team must create a remediation plan (e.g., wait for a patched version) or formally document a risk acceptance rationale. |
+| **4**    | Development Team             | If significant vulnerabilities are found, the team shall create a remediation plan (e.g., wait for a patched version) or formally document a risk acceptance rationale. |
 | **5**    | Development Team Lead        | Based on the review and any remediation plan, formally approves or denies the use of the component in the project documentation or ticket.                           |
 
 ### 5. Standards Compliance

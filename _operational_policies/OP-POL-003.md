@@ -21,7 +21,7 @@ All information assets shall be subject to defined retention periods based on th
 
 **3.1.1 Data Retention Schedule**
 
-The Records Manager, in coordination with the Retention Committee, shall develop and maintain a formal Data Retention Schedule. This schedule is the official source of truth for all data retention periods and must be reviewed and approved annually by the Retention Committee. The schedule shall, at a minimum, categorize data types and assign a specific, non-ambiguous retention period for each. Examples of categories include:
+The Records Manager, in coordination with the Retention Committee, shall develop and maintain a formal Data Retention Schedule. This schedule is the official source of truth for all data retention periods and shall be reviewed and approved annually by the Retention Committee. The schedule shall, at a minimum, categorize data types and assign a specific, non-ambiguous retention period for each. Examples of categories include:
 
 - **Corporate Governance:** Records related to the legal and operational structure of the company.
 - **Financial and Tax:** Records required for financial reporting and tax compliance.
@@ -34,7 +34,7 @@ The Records Manager, in coordination with the Retention Committee, shall develop
 
 ePHI shall be retained in accordance with HIPAA requirements and applicable state laws, as specified in the Data Retention Schedule:
 
-- **Minimum Retention Period:** All policies, procedures, and other documentation required by the HIPAA Security Rule must be retained for a minimum of six (6) years from the date of their creation or the date when they were last in effect, whichever is later. State-specific laws may require longer retention periods.
+- **Minimum Retention Period:** All policies, procedures, and other documentation required by the HIPAA Security Rule shall be retained for a minimum of six (6) years from the date of their creation or the date when they were last in effect, whichever is later. State-specific laws may require longer retention periods.
 - **Extended Retention:** ePHI for minors shall be retained in accordance with applicable state laws, as documented in the Data Retention Schedule.
 - **Research Records:** ePHI used in research retained per research protocol requirements
 - **Legal Hold:** ePHI subject to litigation hold retained until legal matter resolution

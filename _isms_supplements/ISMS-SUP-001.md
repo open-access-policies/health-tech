@@ -1,12 +1,12 @@
 ---
-title: Schedule of Security Procedures (ISMS-SUP-001)
+title: Sche| **Privileg| **BCDR Testing a| **| **| **Workforce Screening and Background Check Procedure** (OP-PROC-006)            | Human Resources (HR)         | Outlines the formal process for conducting mandated background checks on all candidates for employment.                                 |obile Device Onboarding and Security Configuration Procedure** (OP-PROC-002) | IT Security Team             | Details the steps for enrolling a mobile device in the MDM system and ensuring it meets security mandates.                          |IPAA Breach Risk Assessment Procedure** ([RES-PROC-002])                     | Privacy Officer              | Guides the formal risk assessment mandated to determine if an incident qualifies as a notifiable HIPAA breach.                          |d Exercise Procedure** ([RES-PROC-007])           | Business Continuity Manager | Details the mandates for planning and executing the annual disaster recovery tests and business continuity exercises.                    |d Infrastructure Access Review Procedure** (ENG-PROC-006) | Security Team            | Outlines the steps for conducting and documenting the mandated quarterly reviews of all user accounts with privileged access.      |ule of Security Procedures (ISMS-SUP-001)
 parent: ISMS Supplements
 nav_order: 1
 ---
 
 #### **Quarterly Procedures**
 
-These procedures must be conducted and documented every three months to ensure ongoing compliance and security posture management.
+These procedures shall be conducted and documented every three months to ensure ongoing compliance and security posture management.
 
 | **Procedure (Code)**                                                 | **Primary Owner**        | **Description**                                                                                                                    |
 | -------------------------------------------------------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -17,7 +17,7 @@ These procedures must be conducted and documented every three months to ensure o
 
 #### **Annual Procedures**
 
-These procedures must be performed at least once per year to satisfy major compliance, assessment, and testing requirements.
+These procedures shall be performed at least once per year to satisfy major compliance, assessment, and testing mandates.
 
 | **Procedure (Code)**                                               | **Primary Owner**           | **Description**                                                                                                                              |
 | ------------------------------------------------------------------ | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |

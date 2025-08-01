@@ -5,7 +5,7 @@ nav_order: 6
 ---
 ### 1. Purpose
 
-To outline the formal process for conducting required background checks on all candidates for employment to verify their qualifications and identify any potential security risks.
+To outline the formal process for conducting mandated background checks on all candidates for employment to verify their qualifications and identify any potential security risks.
 
 ### 2. Scope
 
@@ -24,7 +24,7 @@ This procedure ensures that all individuals with access to company information a
 | **3**    | Third-Party Provider         | Conducts the background check, which may include criminal history, employment verification, and education verification, in accordance with applicable laws.             |
 | **4**    | Human Resources (HR) & Security Officer | Receive and review the background check report from the provider.                                                                                             |
 | **5**    | Human Resources (HR) & Security Officer | If the report contains adverse findings, they jointly review the findings to determine if they pose an unacceptable risk and would disqualify the candidate from employment. |
-| **6**    | Human Resources (HR)         | If the check is passed, confirms the final offer of employment. If the check is not passed, follows legal requirements for adverse action.                              |
+| **6**    | Human Resources (HR)         | If the check is passed, confirms the final offer of employment. If the check is not passed, follows legal mandates for adverse action.                              |
 | **7**    | Human Resources (HR)         | Documents the completed background check in the candidate's confidential personnel file.                                                                              |
 
 ### 5. Standards Compliance

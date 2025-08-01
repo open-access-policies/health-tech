@@ -5,7 +5,7 @@ nav_order: 2
 ---
 ### 1. Purpose
 
-To guide the Privacy Officer and Incident Response Team through the formal risk assessment required to determine if a security incident qualifies as a notifiable breach under the HIPAA Breach Notification Rule.
+To guide the Privacy Officer and Incident Response Team through the formal risk assessment mandated to determine if a security incident qualifies as a notifiable breach under the HIPAA Breach Notification Rule.
 
 ### 2. Scope
 

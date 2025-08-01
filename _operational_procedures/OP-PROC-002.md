@@ -5,7 +5,7 @@ nav_order: 2
 ---
 ### 1. Purpose
 
-To detail the steps for enrolling a new or personal device in the Mobile Device Management (MDM) system and ensuring it meets all security configuration requirements before being granted access to company resources.
+To detail the steps for enrolling a new or personal device in the Mobile Device Management (MDM) system and ensuring it meets all security configuration mandates before being granted access to company resources.
 
 ### 2. Scope
 
@@ -23,9 +23,9 @@ This procedure describes the process for onboarding a mobile device, from obtain
 | **2**    | Manager                      | Reviews the request. If approved, forwards the approval to the IT Security Team.                                                                                      |
 | **3**    | IT Security Team             | Provides the user with instructions for enrolling their device into the company's Mobile Device Management (MDM) solution.                                            |
 | **4**    | User                         | Enrolls their device in the MDM system and accepts the company's terms and conditions for mobile device usage.                                                        |
-| **5**    | MDM System (Automated)       | Automatically scans the device to verify compliance with all required security policies, including passcode complexity, device encryption, and OS version.             |
+| **5**    | MDM System (Automated)       | Automatically scans the device to verify compliance with all mandated security policies, including passcode complexity, device encryption, and OS version.             |
 | **6**    | IT Security Team             | Reviews the compliance report from the MDM system. If the device is compliant, grants the device access to the approved company resources.                               |
-| **7**    | IT Security Team             | If the device is not compliant, notifies the user of the specific remediation steps required. Access is denied until the device meets all security requirements.      |
+| **7**    | IT Security Team             | If the device is not compliant, notifies the user of the specific remediation steps mandated. Access is denied until the device meets all security mandates.      |
 
 ### 5. Standards Compliance
 

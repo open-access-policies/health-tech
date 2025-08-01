@@ -19,46 +19,46 @@ All remote work must be conducted in a manner that actively protects company inf
 
 Workforce members are responsible for ensuring they use a secure network connection for all remote work.
 
-- **VPN Mandate:** All access to internal company systems, applications, and data repositories must be established through the company-approved Virtual Private Network (VPN). The VPN client must be active for the entire duration of the remote work session.
+- **VPN Mandate:** All access to internal company systems, applications, and data repositories shall be established through the company-approved Virtual Private Network (VPN). The VPN client shall be active for the entire duration of the remote work session.
     
-- **Prohibition of Unsecured Networks:** The use of public or untrusted Wi-Fi networks (e.g., in cafes, airports, hotels) for accessing or transmitting ePHI or other data classified as Confidential is strictly prohibited. If such a network must be used for general tasks, the VPN is mandatory.
+- **Prohibition of Unsecured Networks:** The use of public or untrusted Wi-Fi networks (e.g., in cafes, airports, hotels) for accessing or transmitting ePHI or other data classified as Confidential is strictly prohibited. If such a network shall be used for general tasks, the VPN is mandatory.
     
-- **Home Network Security:** Workforce members are required to secure their home wireless networks with strong encryption (WPA2 or better) and a complex, unique password. As part of their annual security attestation, all workforce members must formally attest that their primary remote work network is secured in accordance with this policy.
+- **Home Network Security:** Workforce members shall secure their home wireless networks with strong encryption (WPA2 or better) and a complex, unique password. As part of their annual security attestation, all workforce members shall formally attest that their primary remote work network is secured in accordance with this policy.
     
 
 **3.2 Device Security Requirements**
 
-Any device used to access company resources remotely, whether company-provided or personally-owned, must meet the following minimum security standards. Compliance with these requirements is enforced through the company's security software (such as Mobile Device Management (MDM) or Endpoint Detection and Response (EDR) solutions). Devices that do not meet these minimum standards may be blocked from accessing corporate resources.
+Any device used to access company resources remotely, whether company-provided or personally-owned, shall meet the following minimum security standards. Compliance with these requirements is enforced through the company's security software (such as Mobile Device Management (MDM) or Endpoint Detection and Response (EDR) solutions). Devices that do not meet these minimum standards may be blocked from accessing corporate resources.
 
-- **Encryption:** Full-disk encryption must be enabled.
+- **Encryption:** Full-disk encryption shall be enabled.
     
-- **Access Control:** The device must be protected by a strong password or biometric control, compliant with the Password Policy (SEC-POL-002), and must be configured to automatically lock after **[Number, e.g., 15]** minutes of inactivity.
+- **Access Control:** The device shall be protected by a strong password or biometric control, compliant with the Password Policy (SEC-POL-002), and shall be configured to automatically lock after **[Number, e.g., 15]** minutes of inactivity.
     
-- **Malware Protection:** Company-approved anti-malware software must be installed, active, and configured to receive automatic updates.
+- **Malware Protection:** Company-approved anti-malware software shall be installed, active, and configured to receive automatic updates.
     
-- **Patch Management:** The operating system and all applications must be kept up-to-date with the latest security patches.
+- **Patch Management:** The operating system and all applications shall be kept up-to-date with the latest security patches.
     
 
 **3.3 Data Handling and Physical Security**
 
-Workforce members must take precautions to protect the physical and digital privacy of information when working remotely.
+Workforce members shall take precautions to protect the physical and digital privacy of information when working remotely.
 
-- **ePHI Storage:** Storing ePHI or other Confidential data on the local hard drive of a personally-owned device is strictly prohibited. All sensitive data must be accessed and stored exclusively on company-managed cloud platforms or network shares.
+- **ePHI Storage:** Storing ePHI or other Confidential data on the local hard drive of a personally-owned device is strictly prohibited. All sensitive data shall be accessed and stored exclusively on company-managed cloud platforms or network shares.
     
-- **Physical Privacy:** Workforce members must take reasonable measures to prevent unauthorized viewing of their screens in public or shared spaces. This includes the use of privacy screens where appropriate and positioning screens away from public view.
+- **Physical Privacy:** Workforce members shall take reasonable measures to prevent unauthorized viewing of their screens in public or shared spaces. This includes the use of privacy screens where appropriate and positioning screens away from public view.
     
-- **Verbal Privacy:** Confidential or sensitive information must not be discussed in public areas where conversations can be overheard.
+- **Verbal Privacy:** Confidential or sensitive information shall not be discussed in public areas where conversations can be overheard.
     
-- **Secure Document Handling:** Any printed documents containing sensitive information must be handled securely and physically destroyed (e.g., via shredding) when no longer needed. Documents must not be left unattended in unsecured locations.
+- **Secure Document Handling:** Any printed documents containing sensitive information shall be handled securely and physically destroyed (e.g., via shredding) when no longer needed. Documents shall not be left unattended in unsecured locations.
     
-- **Asset Protection:** Workforce members are responsible for the physical security of company-provided equipment. Devices must never be left unattended in vehicles or unsecured public locations. Any loss or theft of a device used for company business must be reported immediately to the IT Department and the Security Officer, and in no case later than **[Number, e.g., 24]** hours after discovery.
+- **Asset Protection:** Workforce members are responsible for the physical security of company-provided equipment. Devices shall never be left unattended in vehicles or unsecured public locations. Any loss or theft of a device used for company business shall be reported immediately to the IT Department and the Security Officer, and in no case later than **[Number, e.g., 24]** hours after discovery.
     
-- **Data Removal After Employment:** Upon termination, workforce members must cooperate with the IT Department to ensure the secure removal of all company data, applications, and access credentials from any personally-owned devices used for work.
+- **Data Removal After Employment:** Upon termination, workforce members shall cooperate with the IT Department to ensure the secure removal of all company data, applications, and access credentials from any personally-owned devices used for work.
     
 
 **3.4 Use of Personal Equipment (BYOD)**
 
-The use of personally-owned devices to access company resources is a privilege and is contingent upon adherence to specific security requirements. As a condition of using a personal device for work, workforce members must provide formal consent to the installation of required security software and acknowledge **[Company Name]**'s right to remotely wipe corporate data (a process that targets only company information and applications, not personal data like photos, texts, or contacts). All personal devices must be formally registered with the IT Department and may be required to have company-managed security software installed before access is granted, as further defined in the Bring Your Own Device (BYOD) Policy.
+The use of personally-owned devices to access company resources is a privilege and is contingent upon adherence to specific security requirements. As a condition of using a personal device for work, workforce members shall provide formal consent to the installation of required security software and acknowledge **[Company Name]**'s right to remotely wipe corporate data (a process that targets only company information and applications, not personal data like photos, texts, or contacts). All personal devices shall be formally registered with the IT Department and may be required to have company-managed security software installed before access is granted, as further defined in the Bring Your Own Device (BYOD) Policy.
 
 ### 4. Standards Compliance
 

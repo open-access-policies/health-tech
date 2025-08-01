@@ -5,7 +5,7 @@ nav_order: 7
 ---
 ### 1. Purpose
 
-To detail the requirements for planning, executing, and documenting annual disaster recovery tests and business continuity exercises.
+To detail the mandates for planning, executing, and documenting annual disaster recovery tests and business continuity exercises.
 
 ### 2. Scope
 
@@ -20,7 +20,7 @@ This procedure ensures that the organization's BCDR plans are effective and up-t
 | **Step** | **Who**                      | **What**                                                                                                                                                           |
 | -------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **1**    | Business Continuity Manager  | At the beginning of each year, create an annual BCDR test plan that includes a schedule and specific scenarios (e.g., tabletop exercise, full DR simulation, call tree test). |
-| **2**    | Business Continuity Manager  | Coordinate with all required participants (e.g., DR Team, Business Unit Leaders, IRT) and ensure necessary resources are available for each scheduled test.         |
+| **2**    | Business Continuity Manager  | Coordinate with all mandated participants (e.g., DR Team, Business Unit Leaders, IRT) and ensure necessary resources are available for each scheduled test.         |
 | **3**    | Test Participants            | Execute the test according to the defined plan and scenario, documenting all actions, decisions, and outcomes as they occur.                                        |
 | **4**    | Business Continuity Manager  | Following the test, create a formal post-exercise report that includes an analysis of the test, findings, lessons learned, and recommendations for plan improvements. |
 

@@ -166,7 +166,7 @@ Infrastructure deployments shall use code-based approaches with appropriate secu
 **3.5.1 Secure IaC Practices**
 
 **IaC Security Requirements:**
-- All infrastructure code shall be stored in a version control system. All changes must be reviewed and formally approved via the version control system (e.g., pull request approval) before being merged.
+- All infrastructure code shall be stored in a version control system. All changes shall be reviewed and formally approved via the version control system (e.g., pull request approval) before being merged.
 - Security scanning of infrastructure templates and configurations
 - Automated compliance checking against security policies and standards
 - Immutable infrastructure principles to prevent configuration drift

@@ -13,7 +13,7 @@ This procedure applies to all company-owned and managed media, both electronic a
 
 ### 3. Overview
 
-This procedure outlines the required methods for disposing of or sanitizing media based on the classification level of the data it contains. It ensures that all sensitive information is rendered unrecoverable, in compliance with regulatory and industry standards.
+This procedure outlines the mandated methods for disposing of or sanitizing media based on the classification level of the data it contains. It ensures that all sensitive information is rendered unrecoverable, in compliance with regulatory and industry standards.
 
 ### 4. Procedure
 
@@ -30,7 +30,7 @@ This procedure outlines the required methods for disposing of or sanitizing medi
 
 | **Step** | **Who**                      | **What**                                                                                                                                                              |
 | -------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1**    | All Employees                | Identify paper documents containing **Confidential** or **Restricted** information that are no longer needed.                                                           |
+| **1**    | All Employees                | Identify paper documents containing **Confidential** or **Restricted** information that are no longer required.                                                           |
 | **2**    | All Employees                | Place documents in designated secure shredding bins provided throughout the office.                                                                                   |
 | **3**    | Approved Disposal Vendor     | The approved vendor collects the contents of the shredding bins on a scheduled basis for secure, off-site destruction.                                                |
 | **4**    | Facilities / IT Team         | Obtain and file the certificate of destruction provided by the vendor.                                                                                                |

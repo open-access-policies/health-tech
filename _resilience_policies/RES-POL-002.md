@@ -46,7 +46,7 @@ This policy applies to all **[Company Name]** workforce members, facilities, inf
 
 **3.1.2 Business Impact Analysis (BIA)**
 
-The Business Continuity Manager, in coordination with Business Unit Leaders, shall conduct and formally document a comprehensive Business Impact Analysis (BIA) at least annually, or whenever a significant change to business operations occurs. The BIA report, which defines the recovery requirements for all critical functions, must be reviewed and formally approved by the Information Security Committee.
+The Business Continuity Manager, in coordination with Business Unit Leaders, shall conduct and formally document a comprehensive Business Impact Analysis (BIA) at least annually, or whenever a significant change to business operations occurs. The BIA report, which defines the recovery requirements for all critical functions, shall be reviewed and formally approved by the Information Security Committee.
 
 **Critical Function Identification:**
 - **Immediate (0-4 hours):** Patient care systems, emergency services, life safety systems

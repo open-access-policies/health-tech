@@ -9,7 +9,7 @@ To outline the procedures for activating emergency response, managing communicat
 
 ### 2. Scope
 
-This plan applies to all personnel and covers the processes and resources needed to continue critical business functions identified in the Business Impact Analysis (BIA).
+This plan applies to all personnel and covers the processes and resources mandated to continue critical business functions identified in the Business Impact Analysis (BIA).
 
 ### 3. Overview
 

@@ -45,16 +45,16 @@ This procedure outlines the secure lifecycle management of cryptographic keys, f
 
 | **Step** | **Who**                      | **What**                                                                                                                              |
 | -------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **1**    | Security Engineering Team    | Rotate cryptographic keys at least annually, or more frequently if required by policy or regulation.                                  |
+| **1**    | Security Engineering Team    | Rotate cryptographic keys at least annually, or more frequently if mandated by policy or regulation.                                  |
 | **2**    | Security Engineering Team    | Generate a new key and securely distribute it to all relevant systems.                                                                |
-| **3**    | Security Engineering Team    | Deactivate the old key but retain it in a secure state for a defined period to decrypt previously encrypted data if needed.             |
+| **3**    | Security Engineering Team    | Deactivate the old key but retain it in a secure state for a defined period to decrypt previously encrypted data if required.             |
 | **4**    | Security Engineering Team    | Log the rotation event, including the identifiers for both the old and new keys.                                                      |
 
 #### 4.5 Key Destruction
 
 | **Step** | **Who**                      | **What**                                                                                                                              |
 | -------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **1**    | Security Engineering Team    | When a key is no longer needed and its retention period has expired, securely destroy it using the key management system's functions. |
+| **1**    | Security Engineering Team    | When a key is no longer required and its retention period has expired, securely destroy it using the key management system's functions. |
 | **2**    | Security Engineering Team    | Ensure the destruction process is irreversible (e.g., cryptographic erasure).                                                         |
 | **3**    | Security Engineering Team    | Log the destruction event, including the key identifier and destruction timestamp.                                                    |
 

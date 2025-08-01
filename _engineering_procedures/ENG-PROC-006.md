@@ -13,7 +13,7 @@ This procedure applies to all user accounts, service accounts, and roles with ad
 
 ### 3. Overview
 
-This procedure describes the quarterly access review process. It begins with the Security Team generating a list of privileged accounts, which is then distributed to system owners for review. Managers must attest to the continued need for each access right. Any unnecessary access is then revoked, and the completed attestations are stored for audit purposes.
+This procedure describes the quarterly access review process. It begins with the Security Team generating a list of privileged accounts, which is then distributed to system owners for review. Managers shall attest to the continued need for each access right. Any unnecessary access is then revoked, and the completed attestations are stored for audit purposes.
 
 ### 4. Procedure
 

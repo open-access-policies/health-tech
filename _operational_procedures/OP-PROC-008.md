@@ -22,7 +22,7 @@ This procedure ensures that security policy violations are handled in a structur
 | **1**    | Manager or Security Officer  | Identifies a potential violation of an information security policy through a report, an audit finding, or a security alert.                                           |
 | **2**    | Security Officer & Manager   | Conduct an investigation to gather facts and evidence related to the potential violation. This may involve reviewing logs, interviewing individuals, and analyzing data. |
 | **3**    | Security Officer, Manager, & HR | Review the findings of the investigation to confirm whether a policy violation occurred.                                                                              |
-| **4**    | Manager & HR                 | In consultation with the Security Officer, determine the appropriate disciplinary action. The sanction will be commensurate with the severity of the violation, its impact, and the employee's history. |
+| **4**    | Manager & HR                 | In consultation with the Security Officer, determine the appropriate disciplinary action. The sanction shall be commensurate with the severity of the violation, its impact, and the employee's history. |
 | **5**    | Manager & HR                 | Formally document the violation and the resulting sanction using a standard disciplinary action form. The documentation is stored in the employee's confidential HR file. |
 | **6**    | Manager                      | Communicates the decision and the sanction to the employee.                                                                                                           |
 

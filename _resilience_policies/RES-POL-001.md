@@ -5,7 +5,7 @@ nav_order: 1
 ---
 ### 1. Objective
 
-The objective of this policy is to establish a comprehensive incident response framework for **[Company Name]** to effectively detect, respond to, contain, and recover from information security incidents. This policy ensures that security incidents are handled in a coordinated, timely, and effective manner to minimize impact on business operations, protect electronic Protected Health Information (ePHI) and other sensitive data, maintain regulatory compliance with HIPAA, HITECH, and SOC 2 requirements, and preserve evidence for potential legal proceedings.
+The objective of this policy is to establish a comprehensive incident response framework for **[Company Name]** to effectively detect, respond to, contain, and recover from information security incidents. This policy ensures that security incidents are handled in a coordinated, timely, and effective manner to minimize impact on business operations, protect electronic Protected Health Information (ePHI) and other sensitive data, maintain regulatory compliance with HIPAA, HITECH, and SOC 2 mandates, and preserve evidence for potential legal proceedings.
 
 ### 2. Scope
 
@@ -13,11 +13,11 @@ This policy applies to all **[Company Name]** workforce members, contractors, th
 
 ### 3. Policy
 
-**[Company Name]** shall maintain a formal incident response capability that enables rapid detection, assessment, containment, eradication, and recovery from security incidents while ensuring compliance with regulatory notification requirements.
+**[Company Name]** shall maintain a formal incident response capability that enables rapid detection, assessment, containment, eradication, and recovery from security incidents while ensuring compliance with regulatory notification mandates.
 
 **3.1 Incident Response Framework**
 
-**[Company Name]** shall implement a structured incident response process based on industry best practices and regulatory requirements.
+**[Company Name]** shall implement a structured incident response process based on industry best practices and regulatory mandates.
 
 **3.1.1 Incident Response Lifecycle**
 
@@ -27,7 +27,7 @@ The incident response process shall follow a systematic lifecycle approach based
 - Development and at least annual review of the Incident Response Plan (IRP).
 - Establishment and maintenance of a designated Incident Response Team (IRT) with clearly defined roles and responsibilities.
 - Annual training and simulation exercises (e.g., tabletop exercises) for the IRT to ensure readiness, with outcomes documented for improvement tracking.
-- Deployment and maintenance of tools and technologies required for incident detection, analysis, and response.
+- Deployment and maintenance of tools and technologies mandated for incident detection, analysis, and response.
 - Maintenance of secure, out-of-band communication channels for the IRT.
 - At least annual testing of incident response capabilities, with results documented and used to drive improvements.
 
@@ -173,9 +173,9 @@ Multiple detection methods shall be employed to identify potential security inci
 - In-person reporting to Security Officer or designee
 
 **Reporting Requirements:**
-- All suspected incidents must be reported within **[Timeframe, e.g., 2 hours]** of discovery
-- Initial reports may be verbal with written follow-up required within **[Timeframe, e.g., 24 hours]**
-- Reports must include all available information about the incident
+- All suspected incidents shall be reported within **[Timeframe, e.g., 2 hours]** of discovery
+- Initial reports may be verbal with written follow-up mandated within **[Timeframe, e.g., 24 hours]**
+- Reports shall include all available information about the incident
 - Workforce members shall not attempt to investigate incidents independently
 - No retaliation for good faith incident reporting
 
@@ -233,7 +233,7 @@ Standardized procedures shall be followed for responding to different types of s
 
 **3.5 Regulatory and Legal Compliance**
 
-Incident response procedures shall ensure compliance with all applicable legal and regulatory requirements.
+Incident response procedures shall ensure compliance with all applicable legal and regulatory mandates.
 
 **3.5.1 HIPAA Breach Notification Requirements**
 

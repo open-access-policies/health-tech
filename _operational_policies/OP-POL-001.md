@@ -70,7 +70,7 @@ A comprehensive key management system shall be implemented to ensure the secure 
 
 - **Separation of Duties:** Key management roles and responsibilities shall be formally assigned and separated to prevent any single individual from having unilateral control over a key's lifecycle.
 - **Least Privilege:** Access to cryptographic keys shall be restricted to the minimum necessary for an individual or system to perform its authorized function.
-- **Key Escrow:** Critical encryption keys required for data recovery shall be securely escrowed. The process for accessing escrowed keys must require documented approval from at least two authorized individuals.
+- **Key Escrow:** Critical encryption keys required for data recovery shall be securely escrowed. The process for accessing escrowed keys shall require documented approval from at least two authorized individuals.
 - **Audit Trail:** All key management activities, including generation, distribution, rotation, and destruction, shall be logged in a secure, immutable audit trail and monitored for anomalies.
 
 **3.2.2 Key Generation**
@@ -84,7 +84,7 @@ A comprehensive key management system shall be implemented to ensure the secure 
 
 - Key distribution shall use secure, authenticated channels (e.g., TLS 1.2 or higher).
 - Public key infrastructure (PKI) shall be the primary method for asymmetric key distribution.
-- Key exchange protocols shall be configured to provide perfect forward secrecy (PFS). Any deviation must be documented and approved by the Security Officer.
+- Key exchange protocols shall be configured to provide perfect forward secrecy (PFS). Any deviation shall be documented and approved by the Security Officer.
 - Manual key distribution is prohibited without dual control and documented, time-bound approval from the Security Officer.
 
 **3.2.4 Key Storage and Protection**

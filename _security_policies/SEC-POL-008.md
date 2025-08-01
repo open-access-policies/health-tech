@@ -1,5 +1,17 @@
 ---
-title: Vulnerability Management Policy (SEC-POL-008)
+title: Vulnerability Manage- **2. Prioritization:** All d- **3. Rem- **4To ensure comprehensive- - - - **Documentation:** All approved exceptions, including the justification and compensating controls, shall be documented in a centralized risk register.*Duration:** Approved exceptions are temporary and shall be reviewed at least quarterly. An exception is not a permanent solution.*Approval:** All exception requests shall require documented approval from the asset owner's manager and the **[Role Title, e.g., Security Officer]**. For Critical or High severity vulnerabilities, approval from the **[Role Title, e.g., Chief Technology Officer]** is also required.*Request:** The asset owner shall submit a formal exception request to the Security Team. The request shall include a business justification, a risk analysis, and details of any proposed compensating controls. An acceptable compensating control shall be a documented and testable measure that measurably reduces the likelihood or impact of the specific vulnerability being exploited.discovery, the following scanning schedule shall be maintained:
+
+- **External Scans:** Unauthenticated scans of all internet-facing systems shall be performed at least weekly.
+    
+- **Internal Scans:** Authenticated scans of all internal production systems and workstations shall be performed at least monthly.
+    
+- **Application Scans:** Dynamic and/or static analysis of in-house developed applications shall be performed prior to any major release.
+    
+- **Scan Result Processing:** All vulnerability scan results shall be automatically ingested into a centralized tracking system. The Security Team is responsible for reviewing scan reports within **[Number, e.g., 1]** business day(s) and initiating the Prioritization and Remediation lifecycle for all new, valid findings.ation:** After remediation has been applied, the Security Team shall perform a verification scan to confirm that the vulnerability has been successfully resolved. All verification results shall be documented in the vulnerability tracking system.diation:** Vulnerabilities shall be remediated by the responsible asset owner within a defined timeframe, based on their severity rating. The Remediation SLA begins at the time a vulnerability is formally validated and assigned to the relevant asset owner by the Security Team in the vulnerability tracking system. Remediation may include applying vendor patches, implementing configuration changes, or deploying compensating controls. All remediation activities shall follow the Change Control Policy (ENG-POL-002).scovered vulnerabilities shall be assigned a severity rating to prioritize remediation efforts.
+    
+    - The primary method for rating vulnerabilities shall be the Common Vulnerability Scoring System (CVSS) version 3.x.
+        
+    - The Security Team shall enrich the CVSS base score with the following contextual factors to determine a final, internal Risk Rating:Policy (SEC-POL-008)
 parent: Security Policies
 nav_order: 8
 ---
@@ -83,7 +95,7 @@ To ensure comprehensive discovery, the following scanning schedule will be maint
 
 **3.3 Exception Management and Risk Acceptance**
 
-In cases where a vulnerability cannot be remediated within the defined SLA (e.g., due to a lack of a vendor patch or a high risk of business disruption), a formal exception must be requested.
+In cases where a vulnerability cannot be remediated within the defined SLA (e.g., due to a lack of a vendor patch or a high risk of business disruption), a formal exception shall be requested.
 
 - **Request:** The asset owner must submit a formal exception request to the Security Team. The request must include a business justification, a risk analysis, and details of any proposed compensating controls. An acceptable compensating control must be a documented and testable measure that measurably reduces the likelihood or impact of the specific vulnerability being exploited.
     

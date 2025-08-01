@@ -53,5 +53,5 @@ A completed Incident Report for each declared incident.
 | --- | --- |
 | **Incident Commander** | Leads and coordinates the overall incident response effort. |
 | **Security Analyst** | Performs initial triage, analysis, and technical investigation of incidents. |
-| **Privacy Officer** | Assesses incidents for potential data breach notification requirements, particularly under HIPAA. |
+| **Privacy Officer** | Assesses incidents for potential data breach notification mandates, particularly under HIPAA. |
 | **Legal Counsel** | Provides legal guidance on incident handling, evidence preservation, and external communications. |

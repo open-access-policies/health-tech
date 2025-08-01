@@ -28,13 +28,13 @@ All use of **[Company Name]**'s network resources must be conducted in a legal, 
 
 Workforce members are responsible for maintaining the security of the network and protecting company data.
 
-- **Credentials:** Workforce members must not share their account credentials or allow others to use their accounts to access the network.
+- **Credentials:** Workforce members shall not share their account credentials or allow others to use their accounts to access the network.
     
-- **Malicious Software:** Intentionally introducing malicious software (e.g., viruses, worms, spyware) into the network is strictly prohibited. Workforce members must exercise caution when opening email attachments or clicking on links from unknown sources. To support this, workforce members are required to complete annual security awareness training, which provides specific guidance on identifying and avoiding threats like phishing and malware.
+- **Malicious Software:** Intentionally introducing malicious software (e.g., viruses, worms, spyware) into the network is strictly prohibited. Workforce members shall exercise caution when opening email attachments or clicking on links from unknown sources. To support this, workforce members shall complete annual security awareness training, which provides specific guidance on identifying and avoiding threats like phishing and malware.
     
-- **Security Incidents:** Any suspected security incident, unauthorized access, or vulnerability must be reported immediately to the IT Department and the Security Officer.
+- **Security Incidents:** Any suspected security incident, unauthorized access, or vulnerability shall be reported immediately to the IT Department and the Security Officer.
     
-- **Data Handling:** The transmission of ePHI or other data classified as Confidential over the network must be done using company-approved, encrypted methods.
+- **Data Handling:** The transmission of ePHI or other data classified as Confidential over the network shall be done using company-approved, encrypted methods.
     
 
 **3.3 Prohibited Activities**

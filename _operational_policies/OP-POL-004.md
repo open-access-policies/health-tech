@@ -17,7 +17,7 @@ This policy applies to all prospective, current, and former workforce members of
 
 **3.1 Screening and Background Checks**
 
-To ensure a trusted workforce, all candidates for employment or engagement must undergo a formal screening process before being granted access to company information assets.
+To ensure a trusted workforce, all candidates for employment or engagement shall undergo a formal screening process before being granted access to company information assets.
 
 - **Contingent Offers:** All offers of employment or contract are contingent upon the successful completion of a background check, conducted by a company-approved third-party provider.
     

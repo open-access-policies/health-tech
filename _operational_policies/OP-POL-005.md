@@ -14,7 +14,7 @@ This policy applies to all [Company Name] workforce members (including employees
 
 #### **3. Policy**
 
-All software installed on company endpoints must be properly licensed, have a valid business justification, and be approved in accordance with the procedures outlined in this policy. The principle of least functionality shall be applied, meaning only necessary software should be installed.
+All software installed on company endpoints shall be properly licensed, have a valid business justification, and be approved in accordance with the procedures outlined in this policy. The principle of least functionality shall be applied, meaning only necessary software shall be installed.
 
 **3.1 Software Governance Model**
 

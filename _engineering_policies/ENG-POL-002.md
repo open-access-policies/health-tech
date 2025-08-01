@@ -13,41 +13,41 @@ This policy applies to all workforce members involved in the development, testin
 
 ### 3. Policy
 
-All changes to the production environment must adhere to a structured and auditable lifecycle, from initiation to deployment and post-implementation review. GitHub is the designated system of record for tracking all code and configuration changes.
+All changes to the production environment shall adhere to a structured and auditable lifecycle, from initiation to deployment and post-implementation review. GitHub is the designated system of record for tracking all code and configuration changes.
 
 **3.1 Standard Change Process**
 
-All non-emergency changes must follow this standard process:
+All non-emergency changes shall follow this standard process:
 
-- **Initiation:** Every change must begin with a ticket in the company's issue tracking system, which details the business justification and technical requirements.
+- **Initiation:** Every change shall begin with a ticket in the company's issue tracking system, which details the business justification and technical requirements.
     
-- **Development:** All code and configuration changes must be developed in a separate feature branch within the designated GitHub repository.
+- **Development:** All code and configuration changes shall be developed in a separate feature branch within the designated GitHub repository.
     
-- **Peer Code Review:** Before a change can be promoted for testing, it must be submitted as a pull request in GitHub and receive a formal, documented approval from at least one other qualified engineer who was not an author of the change. A qualified reviewer is defined as an engineer with equivalent or greater seniority or subject-matter expertise. The review must assess code quality, functionality, and adherence to secure coding standards.
+- **Peer Code Review:** Before a change can be promoted for testing, it shall be submitted as a pull request in GitHub and receive a formal, documented approval from at least one other qualified engineer who was not an author of the change. A qualified reviewer is defined as an engineer with equivalent or greater seniority or subject-matter expertise. The review shall assess code quality, functionality, and adherence to secure coding standards.
     
-- **Security Review:** All pull request templates must include a mandatory security checklist. If the developer indicates the change touches sensitive data, authentication, authorization, encryption, or ePHI, a security review is automatically required and must be completed by the Security Team before merging.
+- **Security Review:** All pull request templates shall include a mandatory security checklist. If the developer indicates the change touches sensitive data, authentication, authorization, encryption, or ePHI, a security review is automatically required and shall be completed by the Security Team before merging.
     
-- **Testing:** All changes must pass a full suite of automated tests. Evidence of successful test runs (e.g., a link to the CI/CD build results) must be included in the pull request. Additionally, the Quality Assurance (QA) team must conduct manual testing where applicable and provide formal sign-off within the pull request, confirming the change meets requirements and does not introduce regressions.
+- **Testing:** All changes shall pass a full suite of automated tests. Evidence of successful test runs (e.g., a link to the CI/CD build results) shall be included in the pull request. Additionally, the Quality Assurance (QA) team shall conduct manual testing where applicable and provide formal sign-off within the pull request, confirming the change meets requirements and does not introduce regressions.
     
-- **Deployment Approval:** Final approval to merge the change into the production release branch must be granted by authorized personnel (e.g., Engineering Lead or Manager) within the GitHub pull request. This approval signifies that the approver has verified that all required steps, including peer review, security review, and QA sign-off, have been successfully completed and documented. All approved production release branches must be tagged to ensure traceability and that the exact code deployed to production can be identified.
+- **Deployment Approval:** Final approval to merge the change into the production release branch shall be granted by authorized personnel (e.g., Engineering Lead or Manager) within the GitHub pull request. This approval signifies that the approver has verified that all required steps, including peer review, security review, and QA sign-off, have been successfully completed and documented. All approved production release branches shall be tagged to ensure traceability and that the exact code deployed to production can be identified.
     
 
 **3.2 Emergency Changes**
 
 An emergency change is defined as a modification required to resolve a critical production outage, a severe service degradation, or to patch a critical security vulnerability.
 
-- **Authorization:** An emergency change requires documented approval from at least one authorized Engineering Lead and one member of the Security Team.
+- **Authorization:** An emergency change shall require documented approval from at least one authorized Engineering Lead and one member of the Security Team.
     
 - **Expedited Review:** Peer code review and security review are still mandatory but may be expedited. The focus is on validating the fix and assessing any immediate risks.
     
-- **Post-Mortem:** All emergency changes must be followed by a formal post-mortem review within **[Number, e.g., 3]** business days to analyze the root cause and identify opportunities for process improvement. The standard change documentation, including linking the pull request to a ticket, must be completed retroactively.
+- **Post-Mortem:** All emergency changes shall be followed by a formal post-mortem review within **[Number, e.g., 3]** business days to analyze the root cause and identify opportunities for process improvement. The standard change documentation, including linking the pull request to a ticket, shall be completed retroactively.
     
-- **Oversight:** A log of all emergency changes will be maintained and reviewed on a quarterly basis by Engineering Management to identify trends and ensure the emergency process is not being used to bypass standard change controls.
+- **Oversight:** A log of all emergency changes shall be maintained and reviewed on a quarterly basis by Engineering Management to identify trends and ensure the emergency process is not being used to bypass standard change controls.
     
 
 **3.3 Data-Only Changes**
 
-Data-only changes, such as manual database updates that are not part of a standard code release, must be treated with extreme caution.
+Data-only changes, such as manual database updates that are not part of a standard code release, shall be treated with extreme caution.
 
 - **Formal Request:** All data-only changes require a formal request ticket that includes the script to be run, the business justification, the expected impact, and a detailed rollback plan.
     

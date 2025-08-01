@@ -5,7 +5,7 @@ nav_order: 3
 ---
 ### 1. Purpose
 
-To provide the immediate steps a user and the IT Security Team must take when a mobile device used for company business is reported lost or stolen.
+To provide the immediate steps a user and the IT Security Team shall take when a mobile device used for company business is reported lost or stolen.
 
 ### 2. Scope
 
@@ -13,7 +13,7 @@ This procedure applies to all users of company-issued or personal mobile devices
 
 ### 3. Overview
 
-This procedure details the rapid response actions required to mitigate the security risk arising from a lost or stolen mobile device. The primary goals are to protect company data by remotely locking and wiping the device and to prevent unauthorized access by revoking associated credentials.
+This procedure details the rapid response actions mandated to mitigate the security risk arising from a lost or stolen mobile device. The primary goals are to protect company data by remotely locking and wiping the device and to prevent unauthorized access by revoking associated credentials.
 
 ### 4. Procedure
 

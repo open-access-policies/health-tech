@@ -9,7 +9,7 @@ To provide detailed technical procedures for recovering IT infrastructure, syste
 
 ### 2. Scope
 
-This plan applies to all critical IT systems, infrastructure, and data required to support essential business functions as defined in the Business Impact Analysis (BIA).
+This plan applies to all critical IT systems, infrastructure, and data mandated to support essential business functions as defined in the Business Impact Analysis (BIA).
 
 ### 3. Overview
 

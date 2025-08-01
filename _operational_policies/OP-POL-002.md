@@ -34,7 +34,7 @@ Mobile devices shall be classified based on their access to company information 
 
 **Level 3 - Restricted Access:** Devices with access to ePHI or other Restricted information
 - Maximum security configuration required
-- Must be company-owned devices only
+- Shall be company-owned devices only
 - Advanced MDM with containerization/app wrapping
 - Hardware-based encryption required
 - Continuous compliance monitoring
@@ -64,17 +64,17 @@ All mobile devices accessing company information shall be enrolled in the **[Com
 
 **3.2.1 MDM Enrollment Requirements**
 
-- All devices must be enrolled in MDM before accessing company information
-- Device enrollment requires management approval and IT verification
-- Users must accept MDM terms and conditions including remote wipe capabilities
-- Device compliance must be verified before initial access is granted
+- All devices shall be enrolled in MDM before accessing company information
+- Device enrollment shall require management approval and IT verification
+- Users shall accept MDM terms and conditions including remote wipe capabilities
+- Device compliance shall be verified before initial access is granted
 
 **3.2.2 MDM Security Policies**
 
 The following security policies shall be enforced through MDM:
 
 **Device Configuration:**
-- Minimum passcode/password complexity requirements (must use 6-digits or more for passcodes, gesture-based authentication is not acceptable)
+- Minimum passcode/password complexity requirements (shall use 6-digits or more for passcodes, gesture-based authentication is not acceptable)
 - Automatic screen lock after **[Duration, e.g., 5 minutes]** of inactivity
 - Maximum failed unlock attempts before device lock/wipe
 - Automatic device encryption enforcement
@@ -100,9 +100,9 @@ Personal devices may be used for business purposes under the BYOD program with a
 
 **3.3.1 BYOD Eligibility and Approval**
 
-- BYOD participation requires a formal application and approval process.
-- Device compatibility assessment and security evaluation required.
-- A signed BYOD agreement is mandatory. This agreement must explicitly state the user's consent to the company's right to enforce all security policies on the device, including the ability to remotely wipe company data and applications.
+- BYOD participation shall require a formal application and approval process.
+- Device compatibility assessment and security evaluation are required.
+- A signed BYOD agreement is mandatory. This agreement shall explicitly state the user's consent to the company's right to enforce all security policies on the device, including the ability to remotely wipe company data and applications.
 - Background check requirements for access to Restricted information
 - Annual device revalidation and security assessment
 
