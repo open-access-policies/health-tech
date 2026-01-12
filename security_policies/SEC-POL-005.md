@@ -1,8 +1,3 @@
----
-title: Vendor and Third-Party Risk Management Policy (SEC-POL-005)
-parent: Security Policies
-nav_order: 5
----
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive requirements for assessing, managing, and monitoring security and compliance risks associated with vendors, third-party service providers, and business associates. This policy ensures that **[Company Name]** maintains appropriate oversight of external parties who access, process, store, or transmit company information, particularly electronic Protected Health Information (ePHI), while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements.

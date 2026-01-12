@@ -1,8 +1,3 @@
----
-title: Information Security Committee Charter Procedure (SEC-PROC-001)
-parent: Security Procedures
-nav_order: 1
----
 ### 1. Purpose
 
 To define the operating rules, membership, authority, and responsibilities of the Information Security Committee.

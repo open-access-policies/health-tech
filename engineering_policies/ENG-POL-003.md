@@ -1,8 +1,3 @@
----
-title: Infrastructure Security Policy (ENG-POL-003)
-parent: Engineering Policies
-nav_order: 3
----
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive security requirements for the design, implementation, operation, and maintenance of **[Company Name]**'s cloud-based IT infrastructure. This policy ensures that all infrastructure components including cloud services, networks, servers, databases, and supporting systems are configured and managed with appropriate security controls to protect the confidentiality, integrity, and availability of information systems and electronic Protected Health Information (ePHI). This policy addresses cloud-native security, infrastructure-as-code, container security, and hybrid cloud environments while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements.

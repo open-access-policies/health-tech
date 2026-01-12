@@ -1,8 +1,3 @@
----
-title: Business Continuity and Disaster Recovery Policy (RES-POL-002)
-parent: Resilience Policies
-nav_order: 2
----
 ### 1. Objective
 
 The objective of this policy is to establish a comprehensive business continuity and disaster recovery framework for **[Company Name]** that ensures the continuation of critical business operations and the timely recovery of information systems following disruptions. This policy ensures that **[Company Name]** can maintain the availability of essential services, protect electronic Protected Health Information (ePHI) and other sensitive data, meet regulatory obligations under HIPAA, HITECH, and SOC 2, and minimize the impact of disruptions on patients, customers, and business operations.

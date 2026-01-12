@@ -1,8 +1,3 @@
----
-title: Secure Software Development Policy (ENG-POL-001)
-parent: Engineering Policies
-nav_order: 1
----
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive security requirements for the design, development, testing, deployment, and maintenance of software applications and systems at **[Company Name]**. This policy ensures that security controls are integrated throughout the Software Development Lifecycle (SDLC) to protect the confidentiality, integrity, and availability of information systems and electronic Protected Health Information (ePHI), while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements and implementing secure coding practices that minimize vulnerabilities and security risks.

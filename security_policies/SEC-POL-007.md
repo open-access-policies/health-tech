@@ -1,8 +1,3 @@
----
-title: AI Acceptable Use Policy (SEC-POL-007)
-parent: Security Policies
-nav_order: 7
----
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive guidelines for the acceptable and secure use of Artificial Intelligence (AI) and Machine Learning (ML) technologies at **[Company Name]**. This policy ensures that AI tools and systems are used responsibly, ethically, and securely while protecting the confidentiality, integrity, and availability of company information, particularly electronic Protected Health Information (ePHI). This policy addresses the unique risks associated with AI technologies including data privacy, bias, transparency, and regulatory compliance with HIPAA, HITECH, and SOC 2 requirements while enabling innovation and productivity improvements through responsible AI adoption.

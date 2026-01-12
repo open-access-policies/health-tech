@@ -1,8 +1,3 @@
----
-title: Acceptable Software and Browser Extension Policy (OP-POL-005)
-parent: Operational Policies
-nav_order: 5
----
 
 #### **1. Objective**
 

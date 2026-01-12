@@ -1,8 +1,3 @@
----
-title: Access Control Policy (AC-POL-001)
-parent: Access Control Policies
-nav_order: 1
----
 ### 1. Objective
 
 The objective of this policy is to define the requirements for managing access to **[Company Name]**'s information systems, data, and physical facilities. This policy ensures that access is granted based on the principles of least privilege and separation of duties, thereby protecting the confidentiality, integrity, and availability of corporate and customer information, including electronic Protected Health Information (ePHI).
